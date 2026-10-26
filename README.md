@@ -1,7 +1,15 @@
 # AAS 산출물 자료실
 
-[자료실 열기](https://ioda-lab.github.io/aas-portal-site/)
+## 장비별 자료
 
-장비별 문서·모델·영상·프로그램을 확인하는 자료실입니다.
+[전체 장비 목록](equipment/README.md)
 
-현재는 구조 검토본이며, 실제 산출물은 등록되어 있지 않습니다.
+## 자료 유형
+
+- [AAS 참조모델](resources/aasx.md)
+- [가이던스](resources/guidance.md)
+- [개발계획서](resources/plan.md)
+- [검증 자료](resources/review.md)
+- [시연 영상](resources/video.md)
+- [시뮬레이터·데모](resources/simulator.md)
+- [변환기·도구](resources/tool.md)
