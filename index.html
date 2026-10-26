@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AAS 과제 산출물 자료실">
+<meta name="color-scheme" content="light">
+<title>AAS 산출물 자료실</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<aside class="sidebar" id="sidebar">
+  <button class="nav-close" type="button" aria-label="메뉴 닫기">×</button>
+  <a class="brand" href="#/" aria-label="AAS 산출물 자료실 홈">
+    <span class="brand-mark" aria-hidden="true">AAS</span>
+    <span><strong>산출물 자료실</strong><small>IODA LAB</small></span>
+  </a>
+  <nav id="navigation" aria-label="주 메뉴"></nav>
+</aside>
+<button class="nav-backdrop" type="button" aria-label="메뉴 닫기" tabindex="-1" hidden></button>
+<div class="workspace">
+  <header class="topbar">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="sidebar" aria-label="메뉴 열기">☰</button>
+    <span>AAS 과제 산출물</span>
+    <span class="preview-label">구조 검토본</span>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer">IODA LAB · AAS 산출물 자료실</footer>
+</div>
+<noscript><p class="noscript">화면 탐색에는 JavaScript가 필요합니다. 저장소의 README에서도 자료 분류를 확인할 수 있습니다.</p></noscript>
+<script type="application/json" id="portal-data">{
+ "meta": {
+  "title": "AAS 산출물 자료실",
+  "subtitle": "IODA LAB",
+  "as_of": "2026-10-26",
+  "featured": null,
+  "target": "publish",
+  "github": {
+   "owner": "IODA-Lab",
+   "repo": "aas-portal"
+  },
+  "github_base": "https://github.com/IODA-Lab/aas-portal",
+  "equipment_source": "과제 대상장비 목록: 장비명과 장비 분류, 2026-10-26 확인"
+ },
+ "kinds": [
+  {
+   "id": "aasx",
+   "label": "AAS 참조모델",
+   "desc": "장비별 AAS 모델 패키지입니다. AASX Package Explorer로 엽니다."
+  },
+  {
+   "id": "guidance",
+   "label": "가이던스",
+   "desc": "참조모델 사용 설명서입니다(DOCX, 일부 PDF)."
+  },
+  {
+   "id": "plan",
+   "label": "개발계획서",
+   "desc": "장비별 개발계획서입니다(HWP·HWPX)."
+  },
+  {
+   "id": "review",
+   "label": "검증 자료",
+   "desc": "KOSMO 밸리데이터 결과(HTML)와 정량·정성 검토표(XLSX)입니다."
+  },
+  {
+   "id": "video",
+   "label": "시연 영상",
+   "desc": "장비와 시뮬레이터를 설명하는 영상입니다."
+  },
+  {
+   "id": "simulator",
+   "label": "시뮬레이터·데모",
+   "desc": "AAS와 연결해 움직이는 시뮬레이터와 실행 안내입니다."
+  },
+  {
+   "id": "tool",
+   "label": "변환기·도구",
+   "desc": "산출물을 만들 때 쓰는 변환기와 도구입니다."
+  }
+ ],
+ "equipment": [
+  {
+   "no": 1,
+   "name": "분쇄/파쇄기",
+   "name_en": null,
+   "group": "분쇄/파쇄 설비",
+   "slug": "01",
+   "stage": "unregistered"
+  },
+  {
+   "no": 2,
+   "name": "원심분리기",
+   "name_en": null,
+   "group": "분리/여과 설비",
+   "slug": "02",
+   "stage": "unregistered"
+  },
+  {
+   "no": 3,
+   "name": "유압식 절단기",
+   "name_en": null,
+   "group": "절단/정밀가공 설비",
+   "slug": "03",
+   "stage": "unregistered"
+  },
+  {
+   "no": 4,
+   "name": "가스식 냉난방기",
+   "name_en": null,
+   "group": "열원/온도제어 설비",
+   "slug": "04",
+   "stage": "unregistered"
+  },
+  {
+   "no": 5,
+   "name": "열교환기",
+   "name_en": null,
+   "group": "열원/온도제어 설비",
+   "slug": "05",
+   "stage": "unregistered"
+  },
+  {
+   "no": 6,
+   "name": "압력기",
+   "name_en": "HydraulicFormingPress",
+   "group": "프레스/압입 설비",
+   "slug": "06-HydraulicFormingPress",
+   "stage": "unregistered"
+  },
+  {
+   "no": 7,
+   "name": "레이저측정기",
+   "name_en": null,
+   "group": "계측/분석 설비",
+   "slug": "07",
+   "stage": "unregistered"
+  },
+  {
+   "no": 8,
+   "name": "고압염색기",
+   "name_en": null,
+   "group": "염색 설비",
+   "slug": "08",
+   "stage": "unregistered"
+  },
+  {
+   "no": 9,
+   "name": "라미네이터기",
+   "name_en": null,
+   "group": "침지/코팅 설비",
+   "slug": "09",
+   "stage": "unregistered"
+  },
+  {
+   "no": 10,
+   "name": "띠톱기계",
+   "name_en": null,
+   "group": "절단/정밀가공 설비",
+   "slug": "10",
+   "stage": "unregistered"
+  },
+  {
+   "no": 11,
+   "name": "균질기",
+   "name_en": null,
+   "group": "혼합/균질 설비",
+   "slug": "11",
+   "stage": "unregistered"
+  },
+  {
+   "no": 12,
+   "name": "증류･농축기",
+   "name_en": null,
+   "group": "농축/승화 설비",
+   "slug": "12",
+   "stage": "unregistered"
+  },
+  {
+   "no": 13,
+   "name": "전기정제기",
+   "name_en": null,
+   "group": "정제 설비",
+   "slug": "13",
+   "stage": "unregistered"
+  },
+  {
+   "no": 14,
+   "name": "흡착정제기",
+   "name_en": null,
+   "group": "정제 설비",
+   "slug": "14",
+   "stage": "unregistered"
+  },
+  {
+   "no": 15,
+   "name": "교반기",
+   "name_en": null,
+   "group": "혼합/균질 설비",
+   "slug": "15",
+   "stage": "unregistered"
+  },
+  {
+   "no": 16,
+   "name": "보일러",
+   "name_en": null,
+   "group": "열원/온도제어 설비",
+   "slug": "16",
+   "stage": "unregistered"
+  },
+  {
+   "no": 17,
+   "name": "히트펌프 냉난방기",
+   "name_en": null,
+   "group": "열원/온도제어 설비",
+   "slug": "17",
+   "stage": "unregistered"
+  },
+  {
+   "no": 18,
+   "name": "FPD 반송 로봇",
+   "name_en": null,
+   "group": "로봇/자동화 설비",
+   "slug": "18",
+   "stage": "unregistered"
+  },
+  {
+   "no": 19,
+   "name": "선박 용접용 로봇",
+   "name_en": null,
+   "group": "로봇/자동화 설비",
+   "slug": "19",
+   "stage": "unregistered"
+  },
+  {
+   "no": 20,
+   "name": "SMD 마운터",
+   "name_en": null,
+   "group": "전자부품 실장/납땜 설비",
+   "slug": "20",
+   "stage": "unregistered"
+  },
+  {
+   "no": 21,
+   "name": "세포 조작용 및 신약 합성용 로봇",
+   "name_en": "BioCellManipulationAndDrugSynthesisRobot",
+   "group": "로봇/자동화 설비",
+   "slug": "21-BioCellManipulationAndDrugSynthesisRobot",
+   "stage": "unregistered"
+  },
+  {
+   "no": 22,
+   "name": "바이오 분석용 로봇",
+   "name_en": "BioanalysisRobot",
+   "group": "로봇/자동화 설비",
+   "slug": "22-BioanalysisRobot",
+   "stage": "unregistered"
+  },
+  {
+   "no": 23,
+   "name": "리플로우 납땜 기계",
+   "name_en": "ReflowSolderingMachine",
+   "group": "전자부품 실장/납땜 설비",
+   "slug": "23-ReflowSolderingMachine",
+   "stage": "unregistered"
+  },
+  {
+   "no": 24,
+   "name": "유압 주입기",
+   "name_en": null,
+   "group": "주입/충전 설비",
+   "slug": "24",
+   "stage": "unregistered"
+  },
+  {
+   "no": 25,
+   "name": "화학기상증착기",
+   "name_en": null,
+   "group": "반도체 공정 설비",
+   "slug": "25",
+   "stage": "unregistered"
+  },
+  {
+   "no": 26,
+   "name": "울트라필트레이션 유닛",
+   "name_en": null,
+   "group": "분리/여과 설비",
+   "slug": "26",
+   "stage": "unregistered"
+  },
+  {
+   "no": 27,
+   "name": "반도체홀가공장비",
+   "name_en": null,
+   "group": "절단/정밀가공 설비",
+   "slug": "27",
+   "stage": "unregistered"
+  },
+  {
+   "no": 28,
+   "name": "초음파분쇄기",
+   "name_en": null,
+   "group": "분쇄/파쇄 설비",
+   "slug": "28",
+   "stage": "unregistered"
+  },
+  {
+   "no": 29,
+   "name": "시료절편기",
+   "name_en": null,
+   "group": "계측/분석 설비",
+   "slug": "29",
+   "stage": "unregistered"
+  },
+  {
+   "no": 30,
+   "name": "포집기",
+   "name_en": null,
+   "group": "집진/포집 설비",
+   "slug": "30",
+   "stage": "unregistered"
+  },
+  {
+   "no": 31,
+   "name": "승화장치",
+   "name_en": null,
+   "group": "농축/승화 설비",
+   "slug": "31",
+   "stage": "unregistered"
+  },
+  {
+   "no": 32,
+   "name": "건조기",
+   "name_en": "Dryer",
+   "group": "건조/제습 설비",
+   "slug": "32-Dryer",
+   "stage": "unregistered"
+  },
+  {
+   "no": 33,
+   "name": "샌드믹서",
+   "name_en": null,
+   "group": "주조/주물사 처리 설비",
+   "slug": "33",
+   "stage": "unregistered"
+  },
+  {
+   "no": 34,
+   "name": "샌드쿨러",
+   "name_en": null,
+   "group": "주조/주물사 처리 설비",
+   "slug": "34",
+   "stage": "unregistered"
+  },
+  {
+   "no": 35,
+   "name": "에어드라이어",
+   "name_en": null,
+   "group": "건조/제습 설비",
+   "slug": "35",
+   "stage": "unregistered"
+  },
+  {
+   "no": 36,
+   "name": "래들 가열기",
+   "name_en": null,
+   "group": "주조/주물사 처리 설비",
+   "slug": "36",
+   "stage": "unregistered"
+  },
+  {
+   "no": 37,
+   "name": "매니퓰레이터",
+   "name_en": null,
+   "group": "로봇/자동화 설비",
+   "slug": "37",
+   "stage": "unregistered"
+  },
+  {
+   "no": 38,
+   "name": "냉각컨베이어",
+   "name_en": null,
+   "group": "냉각 설비",
+   "slug": "38",
+   "stage": "unregistered"
+  },
+  {
+   "no": 39,
+   "name": "쇼트블라스트머신",
+   "name_en": null,
+   "group": "표면가공/처리 설비",
+   "slug": "39",
+   "stage": "unregistered"
+  },
+  {
+   "no": 40,
+   "name": "주조 장비",
+   "name_en": "DieCastingMachine",
+   "group": "주조/주물사 처리 설비",
+   "slug": "40-DieCastingMachine",
+   "stage": "unregistered"
+  },
+  {
+   "no": 41,
+   "name": "고속밀링기",
+   "name_en": null,
+   "group": "절단/정밀가공 설비",
+   "slug": "41",
+   "stage": "unregistered"
+  },
+  {
+   "no": 42,
+   "name": "방전가공기",
+   "name_en": null,
+   "group": "절단/정밀가공 설비",
+   "slug": "42",
+   "stage": "unregistered"
+  },
+  {
+   "no": 43,
+   "name": "자동경면사상가공기",
+   "name_en": null,
+   "group": "표면가공/처리 설비",
+   "slug": "43",
+   "stage": "unregistered"
+  },
+  {
+   "no": 44,
+   "name": "PET 사출성형기",
+   "name_en": null,
+   "group": "사출성형 설비",
+   "slug": "44",
+   "stage": "unregistered"
+  },
+  {
+   "no": 45,
+   "name": "PET 냉각장치",
+   "name_en": null,
+   "group": "냉각 설비",
+   "slug": "45",
+   "stage": "unregistered"
+  },
+  {
+   "no": 46,
+   "name": "고주파열처리 설비",
+   "name_en": "InductionHardeningMachine",
+   "group": "금속열처리 설비",
+   "slug": "46-InductionHardeningMachine",
+   "stage": "unregistered"
+  },
+  {
+   "no": 47,
+   "name": "컨베이어",
+   "name_en": null,
+   "group": "이송/컨베이어 설비",
+   "slug": "47",
+   "stage": "unregistered"
+  },
+  {
+   "no": 48,
+   "name": "자동압입기",
+   "name_en": null,
+   "group": "프레스/압입 설비",
+   "slug": "48",
+   "stage": "unregistered"
+  },
+  {
+   "no": 49,
+   "name": "정류기",
+   "name_en": null,
+   "group": "전력변환 설비",
+   "slug": "49",
+   "stage": "unregistered"
+  },
+  {
+   "no": 50,
+   "name": "침지기",
+   "name_en": null,
+   "group": "침지/코팅 설비",
+   "slug": "50",
+   "stage": "unregistered"
+  },
+  {
+   "no": 51,
+   "name": "스트레쳐",
+   "name_en": null,
+   "group": "교정 설비",
+   "slug": "51",
+   "stage": "unregistered"
+  },
+  {
+   "no": 52,
+   "name": "바인더 투입장치",
+   "name_en": "BinderDosingUnit",
+   "group": "주조/주물사 처리 설비",
+   "slug": "52-BinderDosingUnit",
+   "stage": "unregistered"
+  },
+  {
+   "no": 53,
+   "name": "리클레이머",
+   "name_en": null,
+   "group": "주조/주물사 처리 설비",
+   "slug": "53",
+   "stage": "unregistered"
+  },
+  {
+   "no": 54,
+   "name": "용해로",
+   "name_en": null,
+   "group": "주조/주물사 처리 설비",
+   "slug": "54",
+   "stage": "unregistered"
+  },
+  {
+   "no": 55,
+   "name": "수직전기동도금",
+   "name_en": null,
+   "group": "도금 설비",
+   "slug": "55",
+   "stage": "unregistered"
+  },
+  {
+   "no": 56,
+   "name": "배치형열처리로",
+   "name_en": null,
+   "group": "금속열처리 설비",
+   "slug": "56",
+   "stage": "unregistered"
+  },
+  {
+   "no": 57,
+   "name": "롤러염색기",
+   "name_en": null,
+   "group": "염색 설비",
+   "slug": "57",
+   "stage": "unregistered"
+  },
+  {
+   "no": 58,
+   "name": "상압염색기",
+   "name_en": "AtmosphericDyeingMachine",
+   "group": "염색 설비",
+   "slug": "58-AtmosphericDyeingMachine",
+   "stage": "unregistered"
+  },
+  {
+   "no": 59,
+   "name": "제트염색기",
+   "name_en": null,
+   "group": "염색 설비",
+   "slug": "59",
+   "stage": "unregistered"
+  },
+  {
+   "no": 60,
+   "name": "날염기",
+   "name_en": null,
+   "group": "섬유가공 설비",
+   "slug": "60",
+   "stage": "unregistered"
+  },
+  {
+   "no": 61,
+   "name": "머서라이징기",
+   "name_en": null,
+   "group": "섬유가공 설비",
+   "slug": "61",
+   "stage": "unregistered"
+  },
+  {
+   "no": 62,
+   "name": "드라이 클리너",
+   "name_en": null,
+   "group": "섬유가공 설비",
+   "slug": "62",
+   "stage": "unregistered"
+  },
+  {
+   "no": 63,
+   "name": "디스크 탈수기(DISCFILTER)",
+   "name_en": null,
+   "group": "분리/여과 설비",
+   "slug": "63",
+   "stage": "unregistered"
+  },
+  {
+   "no": 64,
+   "name": "펄퍼(PULPER)",
+   "name_en": null,
+   "group": "펄프/제지 설비",
+   "slug": "64",
+   "stage": "unregistered"
+  },
+  {
+   "no": 65,
+   "name": "컬렉팅머신",
+   "name_en": null,
+   "group": "제본/정합 설비",
+   "slug": "65",
+   "stage": "unregistered"
+  },
+  {
+   "no": 66,
+   "name": "트랙기",
+   "name_en": null,
+   "group": "반도체 공정 설비",
+   "slug": "66",
+   "stage": "unregistered"
+  },
+  {
+   "no": 67,
+   "name": "표백기",
+   "name_en": null,
+   "group": "섬유가공 설비",
+   "slug": "67",
+   "stage": "unregistered"
+  },
+  {
+   "no": 68,
+   "name": "증해기",
+   "name_en": null,
+   "group": "펄프/제지 설비",
+   "slug": "68",
+   "stage": "unregistered"
+  },
+  {
+   "no": 69,
+   "name": "탈묵기",
+   "name_en": null,
+   "group": "펄프/제지 설비",
+   "slug": "69",
+   "stage": "unregistered"
+  },
+  {
+   "no": 70,
+   "name": "제호기",
+   "name_en": null,
+   "group": "펄프/제지 설비",
+   "slug": "70",
+   "stage": "unregistered"
+  }
+ ],
+ "items": []
+}</script>
+<script src="app.js"></script>
+</body>
+</html>
