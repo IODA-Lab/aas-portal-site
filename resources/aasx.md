@@ -1,5 +1,7 @@
-# AAS 참조모델
+# AAS 모델
+
+AASX 모델과 보유 중인 JSON·XML 내보내기 파일.
 
 등록된 자료가 없습니다.
 
-[← 자료실](../README.md)
+[← Archive](../README.md)
