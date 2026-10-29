@@ -1,0 +1,3049 @@
+{
+  "as_of": "2026-10-30",
+  "references": [
+    {
+      "url": "https://www.youtube.com/watch?v=xZdbHHdce6A",
+      "source_locations": [
+        "Drive: 01_장비별 자료/41_고속밀링기/03_참고자료/작동원리 관련 참고용 링크"
+      ],
+      "context": "https://www.youtube.com/watch?v=xZdbHHdce6A",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-001",
+      "equipment_numbers": [
+        41
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=xZdbHHdce6A",
+        "title": "KAMI 초정밀 5축 고속가공기 알루미늄 부품 밀링 시간 단축(no.21033)",
+        "channel": "KAMI",
+        "channel_url": "https://www.youtube.com/@KAMI-ol2vv",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BE8-6rNAaVc",
+      "source_locations": [
+        "Drive: 01_장비별 자료/41_고속밀링기/03_참고자료/작동원리 관련 참고용 링크"
+      ],
+      "context": "https://www.youtube.com/watch?v=BE8-6rNAaVc",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-002",
+      "equipment_numbers": [
+        41
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=BE8-6rNAaVc",
+        "title": "DVF 5000 2세대 | 고속 가공을 위한 컴팩트 동시 5축 머시닝센터",
+        "channel": "DN Solutions_Official ",
+        "channel_url": "https://www.youtube.com/@DNsolutionsglobal",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://docs.docker.com/desktop/setup/install/windows-install",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/additional_link_checks.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "0,매니퓰레이터,Docker Desktop 설치 안내,https://docs.docker.com/desktop/setup/install/windows-install,\"매니퓰레이터_가이던스.docx 내 참고 링크. Docker Desktop for Windows 설치 및 시스템 요구사항(https://docs.docker.",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-003",
+      "equipment_numbers": [
+        6,
+        21,
+        22,
+        23,
+        32,
+        40,
+        46,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://basyx.org/get-started/introduction",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/additional_link_checks.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "1,매니퓰레이터,BaSyx 시작 안내,https://basyx.org/get-started/introduction,\"매니퓰레이터_가이던스.docx 내 참고 링크. BaSyx Starter Kit(https://basyx.org/get-started/introduction) (문서에서 추출, 웹 원문 미검증)\",이소윤,20",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-004",
+      "equipment_numbers": [
+        6,
+        21,
+        22,
+        23,
+        32,
+        40,
+        46,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Artificial%20Intelligence%20Model%20Nameplate/1/0/1/IDTA%2002060-1-0-1_Template_AIModelNameplate.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "2,매니퓰레이터,Artificial Intelligence Model Nameplate/1/0/1/IDTA 02060-1-0-1_Template_AIModelNameplate.json,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Arti",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-005",
+      "equipment_numbers": [
+        37
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/3/0/1",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx"
+      ],
+      "context": "3,매니퓰레이터,Digital nameplate/3/0/1,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/3/0/1,\"매니퓰레이터_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-006",
+      "equipment_numbers": [
+        21,
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Template_PVM.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_검증 충돌 분석_20260929.md",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "4,매니퓰레이터,Process Variables for Manufacturing Key Performance Indicators/1/0/IDTA 02066_Template_PVM.json,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Pr",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-007",
+      "equipment_numbers": [
+        22,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx"
+      ],
+      "context": "5,매니퓰레이터,Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData.json,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/1/ID",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-008",
+      "equipment_numbers": [
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "6,매니퓰레이터,Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.json,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Technical_Data/2/0/1/IDTA%200200",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-009",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Submodel_TimeSeriesData.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "7,매니퓰레이터,Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.pdf,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/IDTA%2002",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-010",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "8,매니퓰레이터,Predictive Maintenance/1/0/IDTA 02048_Template_PredictiveMaintenance.json,https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-011",
+      "equipment_numbers": [
+        22,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Handover%20Documentation/2/0/1",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx"
+      ],
+      "context": "9,매니퓰레이터,Handover Documentation/2/0/1,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Handover%20Documentation/2/0/1,\"매니퓰레이터_가이던스.docx 내 참고 링크. 표준 서브모델·환경 ",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-012",
+      "equipment_numbers": [
+        21,
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/eclipse-aaspe/package-explorer/releases",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Rules/UNIFIED_AAS_DELIVERABLE_RULEBOOK.md"
+      ],
+      "context": "10,매니퓰레이터,AAS Package Explorer 배포,https://github.com/eclipse-aaspe/package-explorer/releases,\"매니퓰레이터_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 추출, 웹 원문 미검증)\",이소윤,2026-10-28 00:0",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-013",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://reference.opcfoundation.org/DI/v104/docs/10",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/바인더 투입장치/Guidance_Images/제작기록/20260926_매뉴얼표_한글화/revision_manifest.json",
+        "로컬: Outputs/Month_01/바인더 투입장치/Guidance_Images/제작기록/20260926_매뉴얼표_한글화/translations_kpi_pm.json",
+        "로컬: Outputs/Month_01/바인더 투입장치/Guidance_Images/제작기록/20260926_매뉴얼표_한글화/translation_review.json",
+        "로컬: Outputs/Month_02/고주파열처리 설비/Guidance_Images/제작기록/가이던스_작업자료/PredictiveMaintenance_dump.txt",
+        "로컬: Outputs/Month_02/고주파열처리 설비/Guidance_Images/제작기록/가이던스_작업자료/tables_raw.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/공식설명_기반_CD_5개.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/native_table_coverage.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/공식원본_문의기록.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/상압염색기_프로퍼티명세.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/제작검사결과.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/제작근거.json"
+      ],
+      "context": "11,배치형열처리로,reference.opcfoundation.org/DI/v104/docs/10,https://reference.opcfoundation.org/DI/v104/docs/10,\"배치형열처리로_가이던스.docx 내 참고 링크. https://admin-shell.io/idta/PredictiveMainten",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-014",
+      "equipment_numbers": [
+        23,
+        46,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://reference.opcfoundation.org/DI/v104/docs/10)앞으로",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "11,배치형열처리로,reference.opcfoundation.org/DI/v104/docs/10,https://reference.opcfoundation.org/DI/v104/docs/10,\"배치형열처리로_가이던스.docx 내 참고 링크. https://admin-shell.io/idta/PredictiveMainten",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-015",
+      "equipment_numbers": [
+        56
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/65628",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "14,배치형열처리로,webstore.iec.ch/en/publication/65628,https://webstore.iec.ch/en/publication/65628,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 추출, 웹 원문 미검증)\",이소윤,2026-10-28 00:",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-016",
+      "equipment_numbers": [
+        56
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.iso.org/standard/80533.html",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "15,배치형열처리로,www.iso.org/standard/80533.html,https://www.iso.org/standard/80533.html,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 추출, 웹 원문 미검증)\",이소윤,2026-10-28 00:00:00",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-017",
+      "equipment_numbers": [
+        56
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.iso.org/standard/57988.html",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "16,배치형열처리로,www.iso.org/standard/57988.html,https://www.iso.org/standard/57988.html,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 추출, 웹 원문 미검증)\",이소윤,2026-10-28 00:00:00",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-018",
+      "equipment_numbers": [
+        56
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.iso.org/standard/68019.html",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "17,배치형열처리로,www.iso.org/standard/68019.html,https://www.iso.org/standard/68019.html,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 추출, 웹 원문 미검증)\",이소윤,2026-10-28 00:00:00",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-019",
+      "equipment_numbers": [
+        56
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Predictive%20Maintenance/1/0",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx"
+      ],
+      "context": "18,배치형열처리로,Predictive Maintenance/1/0,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Predictive%20Maintenance/1/0,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-020",
+      "equipment_numbers": [
+        22,
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Time%20Series%20Data/1/1/1",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx"
+      ],
+      "context": "20,배치형열처리로,Time Series Data/1/1/1,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Time%20Series%20Data/1/1/1,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-021",
+      "equipment_numbers": [
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx"
+      ],
+      "context": "21,배치형열처리로,Process Variables for Manufacturing Key Performance Indicators/1/0,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Process%20Variables%20for%20M",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-022",
+      "equipment_numbers": [
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Process%20Parameters%20Type/1/0",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx"
+      ],
+      "context": "23,배치형열처리로,Process Parameters Type/1/0,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Process%20Parameters%20Type/1/0,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-023",
+      "equipment_numbers": [
+        21,
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/2/0/1",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx"
+      ],
+      "context": "24,배치형열처리로,Technical_Data/2/0/1,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/2/0/1,\"배치형열처리로_가이던스.docx 내 참고 링크. 표준 서브모델·환경 구성 참고자료. (문서에서 ",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-024",
+      "equipment_numbers": [
+        21,
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "28,유압식 절단기,Digital nameplate/3/0/1/IDTA 02006-3-0-1_Template_Digital Nameplate.json,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-025",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData_forAASMetamodelV3.1.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "29,유압식 절단기,Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData_forAASMetamodelV3.1.json,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-026",
+      "equipment_numbers": [
+        3
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Submodel_Digital%20Nameplate.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "30,유압식 절단기,Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.pdf,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a2",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-027",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "31,유압식 절단기,Handover Documentation/2/0/1/IDTA 02004-2-0-1_Template_HandoverDocumentation__forAASMetamodelV3.1.json,https://raw.githubusercontent.com/admin-shell-io/submodel-template",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-028",
+      "equipment_numbers": [
+        3
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type_forAASMetamodelV3.1.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "32,유압식 절단기,Process Parameters Type/1/0/IDTA 02031-1_Template_ProcessParameters_Type_forAASMetamodelV3.1.json,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a96",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-029",
+      "equipment_numbers": [
+        3
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData_forAASMetamodelV3.1.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "33,유압식 절단기,Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData_forAASMetamodelV3.1.json,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-030",
+      "equipment_numbers": [
+        3
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "34,유압식 절단기,Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.pdf,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-031",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Submodel_Handover%20Documentation.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "35,유압식 절단기,Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.pdf,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-032",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Submodel_ProcessParameters_Type.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "36,유압식 절단기,Process Parameters Type/1/0/IDTA 02031-1_Submodel_ProcessParameters_Type.pdf,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-033",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Contact%20Information/1/0/1/IDTA%2002002-1-0-1_Template_ContactInformation_forAASMetamodelV3.1.json",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "37,유압식 절단기,Contact Information/1/0/1/IDTA 02002-1-0-1_Template_ContactInformation_forAASMetamodelV3.1.json,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-034",
+      "equipment_numbers": [
+        3
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Submodel_TimeSeriesData.pdf",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "38,유압식 절단기,Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.pdf,https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-035",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.kusters-calico.com/machinery/integrated-technology-for-textile-wet-processing/dyeing/",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "39,롤러염색기,Kusters Calico Dyeing,https://www.kusters-calico.com/machinery/integrated-technology-for-textile-wet-processing/dyeing/,\"RollerDyeingMachine_v0.0.1_Guidance_기준보완.docx 내 참고",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-036",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.iso.org/standard/29946.html",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "40,롤러염색기,www.iso.org/standard/29946.html,https://www.iso.org/standard/29946.html,\"RollerDyeingMachine_v0.0.1_Guidance_기준보완.docx 내 참고 링크. ○ ISO 11111-7:2005: 염색 및 가공 기계의 주요 위험과 안전 요",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-037",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/3/0/2",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "45,롤러염색기,Digital nameplate/3/0/2,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/3/0/2,\"RollerDyeingMachine_v0.0.1_Guidance_기준보완.docx 내",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-038",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Time%20Series%20Data/1/1/2",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "46,롤러염색기,Time Series Data/1/1/2,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Time%20Series%20Data/1/1/2,\"RollerDyeingMachine_v0.0.1_Guidance_기준보완.docx 내",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-039",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Handover%20Documentation/2/0/2",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "48,롤러염색기,Handover Documentation/2/0/2,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Handover%20Documentation/2/0/2,\"RollerDyeingMachine_v0.0.1_Guidance_기",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-040",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/2/0/2",
+      "source_locations": [
+        "Drive: 00_자료 등록 현황 · 참고 링크"
+      ],
+      "context": "51,롤러염색기,Technical_Data/2/0/2,https://github.com/admin-shell-io/submodel-templates/tree/main/published/Technical_Data/2/0/2,\"RollerDyeingMachine_v0.0.1_Guidance_기준보완.docx 내 참고 링크. ",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-041",
+      "equipment_numbers": [
+        57
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zn_LNXwmpMc",
+      "source_locations": [
+        "Drive: 01_장비별 자료/44_PET 사출성형기/03_참고자료/사출기 참고영상 모음"
+      ],
+      "context": "https://www.youtube.com/shorts/zn_LNXwmpMc",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-042",
+      "equipment_numbers": [
+        44
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=zn_LNXwmpMc",
+        "status": "metadata_unavailable",
+        "error": "HTTP Error 401: Unauthorized"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Opfj5Yppd3M",
+      "source_locations": [
+        "Drive: 01_장비별 자료/44_PET 사출성형기/03_참고자료/사출기 참고영상 모음"
+      ],
+      "context": "https://www.youtube.com/watch?v=Opfj5Yppd3M",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-043",
+      "equipment_numbers": [
+        44
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=Opfj5Yppd3M",
+        "title": "플라스틱 사출성형(Injection Molding)",
+        "channel": "대봉이엔지",
+        "channel_url": "https://www.youtube.com/@daebongeng",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qe_D_0BtVAY",
+      "source_locations": [
+        "Drive: 01_장비별 자료/44_PET 사출성형기/03_참고자료/사출기 참고영상 모음"
+      ],
+      "context": "https://www.youtube.com/watch?v=qe_D_0BtVAY",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-044",
+      "equipment_numbers": [
+        44
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=qe_D_0BtVAY",
+        "title": "사출 설명이 너무 쉽게 되어있네요 !",
+        "channel": "사출플라스틱대성테크",
+        "channel_url": "https://www.youtube.com/@%EC%82%AC%EC%B6%9C%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1%EB%8C%80%EC%84%B1%ED%85%8C%ED%81%AC",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UUznI0oQce4",
+      "source_locations": [
+        "Drive: 01_장비별 자료/44_PET 사출성형기/03_참고자료/사출기 참고영상 모음"
+      ],
+      "context": "https://www.youtube.com/watch?v=UUznI0oQce4",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-045",
+      "equipment_numbers": [
+        44
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=UUznI0oQce4",
+        "title": "에스디비(SDB) 프리폼 사출성형기",
+        "channel": "월간 플라스틱코리아",
+        "channel_url": "https://www.youtube.com/@%EC%9B%94%EA%B0%84%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%BD%94%EB%A6%AC-c8r",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P3ze4YODSxY",
+      "source_locations": [
+        "Drive: 01_장비별 자료/44_PET 사출성형기/03_참고자료/사출기 참고영상 모음"
+      ],
+      "context": "https://www.youtube.com/watch?v=P3ze4YODSxY",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-046",
+      "equipment_numbers": [
+        44
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=P3ze4YODSxY",
+        "title": "PET 프리폼 전용 전동 사출성형기",
+        "channel": "월간 플라스틱코리아",
+        "channel_url": "https://www.youtube.com/@%EC%9B%94%EA%B0%84%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%BD%94%EB%A6%AC-c8r",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.dplasers.com/Automatic-Buffing-And-Polishing-Machine-for-Metal-Lock-Components-pd560364348.html",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.dplasers.com/Automatic-Buffing-And-Polishing-Machine-for-Metal-Lock-Components-pd560364348.html",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-047",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.artifex-abrasives.de/sites/default/files/2018-09/ARTIFEX_Appsheet_MoldMaking_CNC_EN_20171124.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.artifex-abrasives.de/sites/default/files/2018-09/ARTIFEX_Appsheet_MoldMaking_CNC_EN_20171124.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-048",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://meco-industries.com/en/polisher/",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://meco-industries.com/en/polisher/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-049",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://meco-industries.com/wp-content/uploads/2022/04/MECO-Polishing-Machine-catalogue.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://meco-industries.com/wp-content/uploads/2022/04/MECO-Polishing-Machine-catalogue.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-050",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oMoGYrAglRU",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://www.youtube.com/watch?v=oMoGYrAglRU",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-051",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=oMoGYrAglRU",
+        "title": "MECO - MEC-PLD-400x150 Cavity Polishing Machine",
+        "channel": "MECO Machines",
+        "channel_url": "https://www.youtube.com/@meco-industries",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/1003.5062",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://arxiv.org/abs/1003.5062",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-052",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1003.5062",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://arxiv.org/pdf/1003.5062",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-053",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jmatprotec.2008.08.034",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://doi.org/10.1016/j.jmatprotec.2008.08.034",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-054",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://robotic-grinding.suhner.com/en/solutions/efc-02-active-compliance-system/",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://robotic-grinding.suhner.com/en/solutions/efc-02-active-compliance-system/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-055",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://robotic-grinding.suhner.com/en/efc/",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://robotic-grinding.suhner.com/en/efc/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-056",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_LQP1mmYfx4",
+      "source_locations": [
+        "Drive: 01_장비별 자료/43_자동경면사상가공기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "- https://www.youtube.com/watch?v=_LQP1mmYfx4",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-057",
+      "equipment_numbers": [
+        43
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=_LQP1mmYfx4",
+        "title": "Transform grinding, polishing, sanding and deburring operations from manual to Robotic - EN Sub_V1",
+        "channel": "Suhner Group",
+        "channel_url": "https://www.youtube.com/@suhnerabrasive7646",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.spgprints.com/rotary-screen-textile-printing-systems-palm",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.spgprints.com/rotary-screen-textile-printing-systems-palm",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-058",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://spgprints.com/hubfs/Textile_2019-Brosch%C3%BCre_low5.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://spgprints.com/hubfs/Textile_2019-Brosch%C3%BCre_low5.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-059",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.screenotex.com/rotary-screen-printing-machine-brochure.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.screenotex.com/rotary-screen-printing-machine-brochure.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-060",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.inovance.eu/south-korea/automation-case-study-spm-1",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.inovance.eu/south-korea/automation-case-study-spm-1",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-061",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://patents.google.com/patent/CN201950945U/en",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://patents.google.com/patent/CN201950945U/en",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-062",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.spgprints.com/rotary-screen-textile-printing-machine-teak",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.spgprints.com/rotary-screen-textile-printing-machine-teak",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-063",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.zimmer-austria.com/rotascreen-rsdm-v/",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.zimmer-austria.com/rotascreen-rsdm-v/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-064",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.spgprints.com/rotary-screens-fabric-printing",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.spgprints.com/rotary-screens-fabric-printing",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-065",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://blog.spgprints.com/random-screen-eco-improving-rotary-screen-printing-process",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://blog.spgprints.com/random-screen-eco-improving-rotary-screen-printing-process",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-066",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.zimmer-austria.com/fileadmin/userdaten/docs/klagenfurt/old_brochure/ROTASCREEN_TG_TU.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.zimmer-austria.com/fileadmin/userdaten/docs/klagenfurt/old_brochure/ROTASCREEN_TG_TU.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-067",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.zimmer-austria.com/rotascreen-tg-tu/",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.zimmer-austria.com/rotascreen-tg-tu/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-068",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.spgprints.com/rotary-screen-textile-printing-systems-rd8",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.spgprints.com/rotary-screen-textile-printing-systems-rd8",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-069",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.spgprints.com/hubfs/Media/Images%20and%20Videos/Rotary%20Textile%20Printing%20Machines/Video%20RD-8_Sept%2020.mp4?hsLang=en",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://www.spgprints.com/hubfs/Media/Images%20and%20Videos/Rotary%20Textile%20Printing%20Machines/Video%20RD-8_Sept%2020.mp4?hsLang=en",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-070",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://platform.ict-tex.eu/pluginfile.php/3986/mod_folder/content/0/PROCESS%20CONTROL%20in%20Textile%20Printing.pdf?forcedownload=1",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://platform.ict-tex.eu/pluginfile.php/3986/mod_folder/content/0/PROCESS%20CONTROL%20in%20Textile%20Printing.pdf?forcedownload=1",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-071",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://blog.spgprints.com/hubfs/Media/Downloads/Rotary%20Printing%20Machines/Teak.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://blog.spgprints.com/hubfs/Media/Downloads/Rotary%20Printing%20Machines/Teak.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-072",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://spgprints.com/hubfs/Media/Downloads/Rotary%20Printing%20Machines/Kapok.pdf",
+      "source_locations": [
+        "Drive: 01_장비별 자료/60_날염기/03_참고자료/기계자료_출처와적용위치.md"
+      ],
+      "context": "https://spgprints.com/hubfs/Media/Downloads/Rotary%20Printing%20Machines/Kapok.pdf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-073",
+      "equipment_numbers": [
+        60
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.dn-solutions.com/kr/product/5-axis-machining/horizontal-machining/dvf-5000.do",
+      "source_locations": [
+        "Drive: 01_장비별 자료/41_고속밀링기/03_참고자료/DN-solution 참고 링크"
+      ],
+      "context": "﻿https://www.dn-solutions.com/kr/product/5-axis-machining/horizontal-machining/dvf-5000.do",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-074",
+      "equipment_numbers": [
+        41
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.anodizing-line.com/sale-37589424-stable-aluminium-extrusion-handling-system-semiautomatic-automatic.html",
+      "source_locations": [
+        "Drive: 01_장비별 자료/51_스트레쳐/03_참고자료/참고 장비 링크"
+      ],
+      "context": "https://www.anodizing-line.com/sale-37589424-stable-aluminium-extrusion-handling-system-semiautomatic-automatic.html?utm_source=chatgpt.com",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-075",
+      "equipment_numbers": [
+        51
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.anodizing-line.com/sale-40217513-1000t-aluminium-extrusion-handling-system-automated-380v-voltage.html",
+      "source_locations": [
+        "Drive: 01_장비별 자료/51_스트레쳐/03_참고자료/참고 장비 링크"
+      ],
+      "context": "https://www.anodizing-line.com/sale-40217513-1000t-aluminium-extrusion-handling-system-automated-380v-voltage.html?utm_source=chatgpt.com",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-076",
+      "equipment_numbers": [
+        51
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Template_TimeSeriesData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-077",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-078",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-079",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-080",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Template_TimeSeriesData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-081",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-082",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Submodel_Handover%20Documentation.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-083",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Submodel_Digital%20Nameplate.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-084",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-085",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-086",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-087",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Submodel_ProcessParameters_Type.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-088",
+      "equipment_numbers": [
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://eclass.eu/en/eclass-standard/search-content",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/additional_link_checks.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/FPD_반송_로봇_AAS_활용_가이던스_V1.0.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-089",
+      "equipment_numbers": [
+        6,
+        21,
+        22,
+        23,
+        32,
+        40,
+        46,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/건조기_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260926_가이던스_매뉴얼표교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-090",
+      "equipment_numbers": [
+        22,
+        32,
+        40,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://intekcorp.com/product/industrial-electric-infrared-and-convection-hybrid-batch-oven/",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/20번_실제사진_후보/사진_출처_및_사용안.md"
+      ],
+      "context": "- 제품 페이지: https://intekcorp.com/product/industrial-electric-infrared-and-convection-hybrid-batch-oven/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-091",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-main-scaled-1.jpg",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/20번_실제사진_후보/사진_출처_및_사용안.md"
+      ],
+      "context": "- 원본 URL: https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-main-sc",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-092",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-with-cart-Prototyping-Parts-for-Additive-Manufacturing-1024x879-1.jpg",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/20번_실제사진_후보/사진_출처_및_사용안.md"
+      ],
+      "context": "- 원본 URL: https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-with-cart-Prototyping-Parts-for-Additive-Manufacturi",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-093",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-Inside-1024x683-1.jpg",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/20번_실제사진_후보/사진_출처_및_사용안.md"
+      ],
+      "context": "- 원본 URL: https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-Inside-",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-094",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-1024x683-1.jpg",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/20번_실제사진_후보/사진_출처_및_사용안.md"
+      ],
+      "context": "- 원본 URL: https://intekcorp.com/wp-content/uploads/2024/04/Custom-Industrial-Electric-Infrared-and-Convection-Hybrid-Batch-Oven-Prototyping-Parts-for-Additive-Manufacturing-1024x68",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-095",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://help.runwayml.com/hc/en-us/articles/37425232841875-Getting-Started-with-Generative-Video",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/설명영상/실사풍_시안_v1/10월12일_발표메모.txt"
+      ],
+      "context": "Runway 공식 시작 안내: https://help.runwayml.com/hc/en-us/articles/37425232841875-Getting-Started-with-Generative-Video",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-096",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/rany2/edge-tts",
+      "source_locations": [
+        "로컬: Outputs/Month_01/건조기/설명영상/학생안내_음성_v2/영상_안내.txt"
+      ],
+      "context": "음성 라이브러리: edge-tts 7.2.8 — https://github.com/rany2/edge-tts",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-097",
+      "equipment_numbers": [
+        32
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Template_PVM.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-098",
+      "equipment_numbers": [
+        22,
+        52,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance_forAASMetamodelV3.1.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-099",
+      "equipment_numbers": [
+        40,
+        52
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance_forAASMetamodelV3.1.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/바인더 투입장치_검증 충돌 분석_20260929.md",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_SML_Explanation_수정전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림28_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_교체전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/바인더 투입장치/Backup/20260929_그림30_패키지익스플로러_재생성전/바인더 투입장치_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-100",
+      "equipment_numbers": [
+        40,
+        52
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://multipress.com/wp-content/uploads/2023/10/11-002-V0320-MP-4-Post-Presses-Single.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-101",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-102",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-103",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Submodel_TimeSeriesData.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-104",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Submodel_ProcessParameters_Type.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-105",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aasx-package-explorer/releases",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_01/주조 장비/BoundaryValueRange_Property_검토안_20260928/주조 장비_가이던스_BoundaryValueRange_Property_검토안.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx",
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/additional_link_checks.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Reference/FPD_반송_로봇_AAS_활용_가이던스_V1.0.docx",
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-106",
+      "equipment_numbers": [
+        6,
+        21,
+        22,
+        23,
+        40,
+        46,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-107",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Template_TimeSeriesData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-108",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Submodel_Handover%20Documentation.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-109",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Submodel_Digital%20Nameplate.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-110",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-111",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-112",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/IDTA%2002008-1-1_Template_TimeSeriesData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-113",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-114",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-115",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-116",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/KOSMO_잔존실패_근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/원본보존/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_검토전_기록/압력기/수정이력_20261026/KOSMO_잔존실패_근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/KOSMO_잔존실패_근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/압력기_가이던스.docx",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261029_가이던스3곳_192508/압력기_가이던스.docx",
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-117",
+      "equipment_numbers": [
+        6,
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/보완항목_반영근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/보완항목_반영근거.json"
+      ],
+      "context": "    \"sourceURL\": \"https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Template_Dig",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-118",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/보완항목_반영근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/보완항목_반영근거.json"
+      ],
+      "context": "    \"sourceURL\": \"https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Templat",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-119",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/보완항목_반영근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/보완항목_반영근거.json"
+      ],
+      "context": "    \"sourceURL\": \"https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_Techni",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-120",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/보완항목_반영근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/보완항목_반영근거.json"
+      ],
+      "context": "    \"sourceURL\": \"https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time Series Data/1/1/IDTA 02008-1-1_Template_TimeSeri",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-121",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/보완항목_반영근거.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/IDTA_원본대비_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/개발계획서_변경명세.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/보완항목_반영근거.json"
+      ],
+      "context": "    \"sourceURL\": \"https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process Parameters Type/1/0/IDTA 02031-1_Template_Pro",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-122",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/KOSMO_실행로그.txt",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/KOSMO_재실행결과.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/current_baseline_kosmo.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/external_only_no_lang_kosmo.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/external_reference_only_kosmo.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/language_only_kosmo.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/추가3건_수정전/KOSMO_재실행결과.json",
+        "로컬: Outputs/Month_02/고주파열처리 설비/InductionHardeningMachine_v0.0.3_260929_validator_result.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/Validator_실행결과.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/Validator_원시로그.txt",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/KOSMO_Validator_엔진실행.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/KOSMO_Validator_원시로그.txt"
+      ],
+      "context": "[TRACE] Relationship aasx/Thumbnail.jpg is of type http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-123",
+      "equipment_numbers": [
+        6,
+        23,
+        46,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/official_fetch.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "      \"url\": \"https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-124",
+      "equipment_numbers": [
+        6,
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/main/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.json",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/official_fetch.json"
+      ],
+      "context": "      \"url\": \"https://raw.githubusercontent.com/admin-shell-io/submodel-templates/main/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.js",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-125",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.1/annex/general.html",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json"
+      ],
+      "context": "      \"url\": \"https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.1/annex/general.html\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-126",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.1/spec-metamodel/datatypes.html",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json"
+      ],
+      "context": "      \"url\": \"https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.1/spec-metamodel/datatypes.html\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-127",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1/specification.html",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_수정가능성_최종검토_20261026.json"
+      ],
+      "context": "      \"url\": \"https://industrialdigitaltwin.io/aas-specifications/IDTA-01003-a/v3.1/specification.html\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-128",
+      "equipment_numbers": [
+        6
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://domain.com/",
+      "source_locations": [
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/official_current_main.json",
+        "로컬: Outputs/Month_01/압력기/수정이력_20261026/잔존오류_해결가능성_시험_20261026/official_pinned.json",
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/상압염색기_프로퍼티명세.json"
+      ],
+      "context": "                              \"value\": \"https://domain.com/...\"",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-129",
+      "equipment_numbers": [
+        6,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance/1/0/IDTA%2002048_Submodel_PredictiveMaintenance.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_01/주조 장비/주조 장비_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-130",
+      "equipment_numbers": [
+        40,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Predictive%20Maintenance/1/0",
+      "source_locations": [
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-131",
+      "equipment_numbers": [
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-132",
+      "equipment_numbers": [
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-133",
+      "equipment_numbers": [
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0",
+      "source_locations": [
+        "로컬: Outputs/Month_02/고주파열처리 설비/고주파열처리 설비_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-134",
+      "equipment_numbers": [
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://eclass.eu/eclass-standard/search-content",
+      "source_locations": [
+        "로컬: Outputs/Month_02/고주파열처리 설비/Guidance_Images/제작기록/가이던스_작업자료/binder_korean_props.json"
+      ],
+      "context": "[{\"idShort\": \"URIOfTheProduct\", \"type\": \"[Prop]\", \"semanticId\": \"0112/2///61987#ABN590#002\", \"korean_explanation\": \"제품을 다른 제품과 구별하는 고유 식별자입니다. 원본에는 장비 유형을 설명하는 예시 식별자가 들어 있습니다.\", \"",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-135",
+      "equipment_numbers": [
+        46
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-136",
+      "equipment_numbers": [
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/바이오 분석용 로봇_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-137",
+      "equipment_numbers": [
+        22,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://eclass.eu/en/eclass-standard/search-content/show?id=27380101&version=16_0",
+      "source_locations": [
+        "로컬: Outputs/Month_02/바이오 분석용 로봇/Guidance_Images/제작기록/HQ_20260926/aasx_properties.txt"
+      ],
+      "context": "/TechnicalData/ProductClassifications/ClassificationSystemUrl = https://eclass.eu/en/eclass-standard/search-content/show?id=27380101&version=16_0",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-138",
+      "equipment_numbers": [
+        22
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Description/1/1",
+      "source_locations": [
+        "로컬: Outputs/Month_02/세포 조작용 및 신약 합성용 로봇/세포 조작용 및 신약 합성용 로봇_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-139",
+      "equipment_numbers": [
+        21
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-140",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Predictive%20Maintenance/1/0/IDTA%2002048_Submodel_PredictiveMaintenance.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-141",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Submodel_PVM.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-142",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-143",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-specs-api/blob/main/documentation/IDTA-01002-3/modules/ROOT/pages/specification/interfaces.adoc",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/additional_link_checks.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-144",
+      "equipment_numbers": [
+        23,
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-145",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Handover%20Documentation/2/0/1/IDTA%2002004-2-0-1_Template_HandoverDocumentation.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-146",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Template_PVM.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-147",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Digital%20nameplate/3/0/1/IDTA%2002006-3-0-1_Template_Digital%20Nameplate.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-148",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-149",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Technical_Data/2/0/1/IDTA%2002003_2-0-1_Template_TechnicalData.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-150",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Predictive%20Maintenance/1/0/IDTA%2002048_Template_PredictiveMaintenance.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-151",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Template_PVM.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-152",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Process%20Parameters%20Type/1/0/IDTA%2002031-1_Template_ProcessParameters_Type.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/AASX_제작기록/20261019_v0.0.1/템플릿_원본출처.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-153",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Time%20Series%20Data/1/1/1/IDTA%2002008-1-1-1_Template_TimeSeriesData.aasx",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/리플로우 납땜기계_가이던스.docx",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/all_document_urls.json",
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/official_links.json"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-154",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://docs.docker.com/desktop/setup/install/windows-install)○",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/appendix_expected_text.txt"
+      ],
+      "context": "부록 I. AIoT 디바이스를 활용한 장비-AAS 연동1. 개요가. 배경 및 목적○ 현장 장비의 제어기·센서 데이터를 AAS에 연동하려면 장비 데이터 수집과 SubmodelElement간 매핑이 필요하다. 본 부록은 AIoT 디바이스를 활용하여 장비 데이터를 수집하고, AAS 서버의 대상 SubmodelElement에 반",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-155",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://basyx.org/get-started/introduction)AAS",
+      "source_locations": [
+        "로컬: Outputs/Month_03/리플로우 납땜기계/가이던스_제작기록/20261019_V1.0/appendix_expected_text.txt"
+      ],
+      "context": "부록 I. AIoT 디바이스를 활용한 장비-AAS 연동1. 개요가. 배경 및 목적○ 현장 장비의 제어기·센서 데이터를 AAS에 연동하려면 장비 데이터 수집과 SubmodelElement간 매핑이 필요하다. 본 부록은 AIoT 디바이스를 활용하여 장비 데이터를 수집하고, AAS 서버의 대상 SubmodelElement에 반",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-156",
+      "equipment_numbers": [
+        23
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P-LIS5nlkks",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx",
+        "로컬: Outputs/Month_03/상압 염색기/설명영상/YouTube_게시자료/게시_준비정보.json",
+        "로컬: Outputs/Month_03/상압 염색기/설명영상/YouTube_게시자료/유튜브_게시완료.txt"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-157",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": {
+        "url": "https://www.youtube.com/watch?v=P-LIS5nlkks",
+        "title": "상압 염색기 장비 소개 | 구조·작동 원리·장비 정보",
+        "channel": "한양대학교 ERICA 산업경영공학과 김익제",
+        "channel_url": "https://www.youtube.com/@aroma8847",
+        "status": "metadata_verified"
+      }
+    },
+    {
+      "url": "https://www.jianyelaundry.cn/products_8/290.html",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-158",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Process%20Variables%20for%20Manufacturing%20Key%20Performance%20Indicators/1/0/IDTA%2002066_Submodel_PVM.pdf",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/상압 염색기_가이던스.docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-159",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://eclass.eu",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/상압염색기_프로퍼티명세.json",
+        "로컬: Outputs/Month_03/상압 염색기/Guidance_Images/제작기록/개발계획서_추출문.json",
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/native_table_coverage.json"
+      ],
+      "context": "      \"value\": \"https://eclass.eu\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-160",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Contact%20Information/1/0/1/IDTA%2002002-1-0-1_Template_ContactInformation.json",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/AASX_제작기록/20261005_v0.0.1/상압염색기_프로퍼티명세.json"
+      ],
+      "context": "      \"url\": \"https://raw.githubusercontent.com/admin-shell-io/submodel-templates/a9664731a903b29ac5f45e23ab3a25c581f3d92f/published/Contact%20Information/1/0/1/IDTA%2002002-1-0-1_",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-161",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.smart-",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/최종_페이지_검수.json"
+      ],
+      "context": "    \"text\": \"III. AAS 참조모델\\n표 34 SubmodelElementCollection BatchAndBathCapacity\\nidShort: BatchAndBathCapacity\\nClass: SubmodelElementCollection\\nhttps://www.smart-\\nsemanticId:\\nf",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-162",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aasx-package-explorer/releases\\n121",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/최종_페이지_검수.json"
+      ],
+      "context": "    \"text\": \"IV. AAS 참조모델 활용 방법\\nIV.AAS 참조모델 활용 방법\\n1. 참조모델 활용\\n제공된 AASX 복사본을 열어 장비 유형과 정보 계층을 확인한 다음, 실제 장비 인스턴스의 식별\\n자와 검증된 값을 입력한다. 구조와 의미는 유지하면서 장비 마스터, 센서, 레시피 및 MES 실적\\n을 각각 ",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-163",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.org/en)의",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/최종_페이지_검수.json"
+      ],
+      "context": "    \"text\": \"IV. AAS 참조모델 활용 방법\\n그림 41 AAS 생성\\n그림 42 AAS 정보\\n라. SubmodelTemplate을 이용한 Submodel 추가\\n○ 먼저, File-Open Auxiliary AAS 버튼을 통해 IDTA의 Nameplate Submodel을 추가하는 것을 예시\\n로 설명한다",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-164",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://docs.docker.com/desktop/setup/install/windows-install)\\n○",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/최종_페이지_검수.json"
+      ],
+      "context": "    \"text\": \"부록 I. AIoT 디바이스를 활용한 장비-AAS 연동\\n비교항목 Eclipse BaSyx Fraunhofer FA³ST\\nAAS 조회 화면 지원 지원\\nService와 Registry를 개별 구성 및\\n구축 지원 방식 Docker Compose 기반 통합 구성\\nViewer는 Fraunhofer에",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-165",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://basyx.org/get-started/introduction)\\n1",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/가이던스_제작기록/20261005_V1.0/최종_페이지_검수.json"
+      ],
+      "context": "    \"text\": \"부록 I. AIoT 디바이스를 활용한 장비-AAS 연동\\n표 5 본 부록에서 사용하는 BaSyx 구성요소\\nBaSyx 구성요소 본 부록에서의 역할\\nAAS, Submodel 및 Concept Description의 저장·조회를 위한\\nAAS Environment\\nRepository 기능과 Regi",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-166",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KWe8rjPumIg5k4esLJavMKf12r/hf_20261011_002734_ecaf12c8-82e1-4eeb-9ab7-e42e41c96583.mp4",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/설명영상/AI동영상_음성포함_v2/실제_생성기록.json"
+      ],
+      "context": "    \"source\": \"https://d8j0ntlcm91z4.cloudfront.net/user_3KWe8rjPumIg5k4esLJavMKf12r/hf_20261011_002734_ecaf12c8-82e1-4eeb-9ab7-e42e41c96583.mp4\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-167",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KWe8rjPumIg5k4esLJavMKf12r/hf_20261011_003404_534790f2-b7b0-4580-b606-cfb52473e044.mp4",
+      "source_locations": [
+        "로컬: Outputs/Month_03/상압 염색기/설명영상/AI동영상_음성포함_v2/실제_생성기록.json"
+      ],
+      "context": "    \"source\": \"https://d8j0ntlcm91z4.cloudfront.net/user_3KWe8rjPumIg5k4esLJavMKf12r/hf_20261011_003404_534790f2-b7b0-4580-b606-cfb52473e044.mp4\",",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-168",
+      "equipment_numbers": [
+        58
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://docs.omniverse.nvidia.com/dev-guide/latest/common/NVIDIA_Omniverse_License_Agreement.html",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/NVIDIA_Omniverse_License.txt"
+      ],
+      "context": "Please see the most recent version of this license here: https://docs.omniverse.nvidia.com/dev-guide/latest/common/NVIDIA_Omniverse_License_Agreement.html.",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-169",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://nvid.nvidia.com",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/NVIDIA_Omniverse_License.txt"
+      ],
+      "context": "1.12 “License Portal” means the website https://nvid.nvidia.com and its subdomains, including (but not limited to) the associated software and services, from which certain Omnivers",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-170",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/NVIDIA-Omniverse",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/NVIDIA_Omniverse_License.txt"
+      ],
+      "context": "1.15 “Omniverse GitHub Repository” means the repository at https://github.com/NVIDIA-Omniverse.",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-171",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "http://www.nvidia.com/omniverse/",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/NVIDIA_Omniverse_License.txt"
+      ],
+      "context": "1.18 “Omniverse Website” means the website http://www.nvidia.com/omniverse/ and its subdomains, including (but not limited to) the associated software and services.",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-172",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/NVIDIA_Omniverse_License.txt"
+      ],
+      "context": "You should review the NVIDIA Privacy Policy, located at  https://www.nvidia.com/en-us/about-nvidia/privacy-policy/, which explains NVIDIA’s policy for collecting and using data.",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-173",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/README.txt"
+      ],
+      "context": "https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-174",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://pypi.nvidia.com",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/README.txt"
+      ],
+      "context": "Isaac packages: https://pypi.nvidia.com",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-175",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/README.txt"
+      ],
+      "context": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-176",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html",
+      "source_locations": [
+        "로컬: Casting_Project/docs/environment/README.txt"
+      ],
+      "context": "https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-177",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.mdpi.com/2075-4701/15/10/1071",
+      "source_locations": [
+        "로컬: Casting_Project/docs/presentation/casting_qa_2026-10-06.json"
+      ],
+      "context": "        {\"kind\": \"reference\", \"label\": \"R2 | Merchan et al., Metals 2025, 15(10), 1071\", \"url\": \"https://www.mdpi.com/2075-4701/15/10/1071\", \"text\": \"저속 0.3 m/s와 고속 2.5/3.0 m/s의 HP",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-179",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://www.mdpi.com/2076-3417/12/9/4757",
+      "source_locations": [
+        "로컬: Casting_Project/docs/presentation/casting_qa_2026-10-06.json"
+      ],
+      "context": "        {\"kind\": \"reference\", \"label\": \"R3 | Applied Sciences 2022, 12(9), 4757\", \"url\": \"https://www.mdpi.com/2076-3417/12/9/4757\", \"text\": \"압력 유지 1~4초 실험 조건과 40초 사이클 연구 사례. 현재 개별",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-180",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://shibaura-machine.com/media/ookl2gjx/specification-sheet-800r-h-2.pdf",
+      "source_locations": [
+        "로컬: Casting_Project/docs/presentation/casting_qa_2026-10-06.json"
+      ],
+      "context": "        {\"kind\": \"reference\", \"label\": \"R4 | Shibaura Machine, DC800R-H/EH specification\", \"url\": \"https://shibaura-machine.com/media/ookl2gjx/specification-sheet-800r-h-2.pdf\", \"t",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-181",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01002/v3.1.2/general.html",
+      "source_locations": [
+        "로컬: Casting_Project/docs/presentation/casting_qa_2026-10-06.json"
+      ],
+      "context": "        {\"kind\": \"reference\", \"label\": \"R5 | IDTA, AAS Part 2 API / General\", \"url\": \"https://industrialdigitaltwin.io/aas-specifications/IDTA-01002/v3.1.2/general.html\", \"text\": \"",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-182",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2023/03/IDTA-02008-1-1_Submodel_TimeSeriesData.pdf",
+      "source_locations": [
+        "로컬: Casting_Project/docs/presentation/casting_qa_2026-10-06.json"
+      ],
+      "context": "        {\"kind\": \"reference\", \"label\": \"R6 | IDTA 02008-1-1, Time Series Data\", \"url\": \"https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2023/03/IDTA-02008-1-1_Submo",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-183",
+      "equipment_numbers": [
+        40
+      ],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Template_HSEBoM.aasx",
+      "source_locations": [
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-184",
+      "equipment_numbers": [],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Template_HSEBoM.json",
+      "source_locations": [
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-185",
+      "equipment_numbers": [],
+      "youtube": null
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates/blob/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/1/IDTA%2002011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf",
+      "source_locations": [
+        "로컬: Reference/[별첨1] (가이던스 예시) 기계식 프레스 AAS 활용 가이던스_V2.0 (20260625).docx"
+      ],
+      "context": "문서의 외부 하이퍼링크",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-186",
+      "equipment_numbers": [],
+      "youtube": null
+    },
+    {
+      "url": "https://www.planttext.com/`",
+      "source_locations": [
+        "로컬: Rules/UNIFIED_AAS_DELIVERABLE_RULEBOOK.md"
+      ],
+      "context": "6. Render the file with a PlantUML renderer or editor and compare the rendered diagram with the actual AASX structure. The manual illustrates `https://www.planttext.com/`; use of t",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-187",
+      "equipment_numbers": [],
+      "youtube": null
+    },
+    {
+      "url": "https://www.planttext.com/",
+      "source_locations": [
+        "로컬: Rules/UNIFIED_AAS_DELIVERABLE_RULEBOOK.md"
+      ],
+      "context": "- `slide 10, shape 22 (TextBox 21), paragraph 1`: 'planttext' 이용 예시<br>https://www.planttext.com/",
+      "verification": "자료 내 링크 확인; 원문 접속·과거 실제 사용 여부는 별도 확인",
+      "id": "REF-188",
+      "equipment_numbers": [],
+      "youtube": null
+    }
+  ]
+}

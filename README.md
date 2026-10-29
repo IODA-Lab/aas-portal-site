@@ -8,6 +8,10 @@
 
 장비군 → 장비 → 문서·모델 / 시뮬레이션·영상 / 참고자료 / 검토·개선 순서로 찾습니다.
 
+## 등록 현황
+
+[현재 산출물·등록 계정](resources/registration-status.md) · [파일별 출처](resources/registration-files.md) · [이번 대용량 첨부](https://github.com/IODA-Lab/aas-portal-site/releases/tag/aas-archive-20261030)
+
 ## 자료 유형
 
 | 자료 유형 | 포함하는 자료 |
