@@ -1,0 +1,4 @@
+검토 기준: ChemicalVaporDepositionEquipment_AAS_v0.0.1.aasx / 2026-10-27 결과 반영. SHA-256: 5731cc046c9aebfa7d85b6e072bc851cae2d13043752e005d8bbc9f3b332d8ea
+2026-10-27 검사: 70 Passed·0 Failed. 결과 파일: 20261027115259_test_result.html. 표준 SM 6종은 자동검사 제외 대상이므로 공식 원본과의 경로 대조 근거를 별도로 적용한다.
+HTML SHA-256: cf2ec50eb8ccb59fe3a1714ea49511b2c400ac4791613877c2a631f92d0ff04b
+HTML의 Testing file 경로와 제출 파일 경로가 일치함. 현재 AASX 해시는 2026-10-26 보완본 해시와 동일하며, 이번 검토에서 AASX를 수정하지 않음.

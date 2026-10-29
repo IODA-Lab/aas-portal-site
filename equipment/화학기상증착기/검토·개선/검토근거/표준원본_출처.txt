@@ -1,0 +1,8 @@
+Nameplate: IDTA 02006-3-0-1_Template_Digital Nameplate.aasx
+HandoverDocumentation: IDTA 02004-2-0-1_Template_HandoverDocumentation.aasx
+TechnicalData: IDTA 02003_2-0-1_Template_TechnicalData.aasx
+TimeSeries: IDTA 02008-1-1-1_Template_TimeSeriesData.aasx
+ProcessParameters: IDTA 02031-1_Template_ProcessParameters_Type_forAASMetamodelV3.1.aasx
+PredictiveMaintenance: IDTA 02048_Template_PredictiveMaintenance.aasx
+ECLASS 16.0: ECLASS16_0_PR_en.csv, ECLASS16_0_CC_en.csv, ECLASS16_0_UN_en.csv
+IEC CDD 공식 사이트(V2.0018.0003)를 2026-10-27 열람하여 아래 후보의 원문 정의·자료형·단위·물리량을 대조하였다. IEC 61360-4·61360-7·61987 검색 범위와 후보별 공식 링크는 검토근거의 CDD_공식후보_대조.csv 및 CDD_검색기록.txt에 기록하였다. 표의 원문 대조 문구는 적용 판단이며 IEC 정의의 인용·번역문이 아니다. 적합한 기존 ECLASS는 유지한다.

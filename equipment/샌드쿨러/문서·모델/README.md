@@ -6,3 +6,11 @@
 - **AAS 모델**: AASX 모델과 보유 중인 JSON·XML 내보내기 파일.
 
 [← 샌드쿨러](../) · [← 장비 목록](../../README.md)
+
+## 2026-10-29 등록 자료
+
+| 자료 | 파일 |
+|---|---|
+| AAS 모델 | [SandCooler_AAS_v0.0.1.aasx](SandCooler_AAS_v0.0.1.aasx) |
+| 개발계획서 | [샌드쿨러_참조모델개발계획서_v0.0.1.hwp](%EC%83%8C%EB%93%9C%EC%BF%A8%EB%9F%AC_%EC%B0%B8%EC%A1%B0%EB%AA%A8%EB%8D%B8%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C_v0.0.1.hwp) |
+| 가이던스 | [샌드쿨러_AAS_활용_가이던스_v0.0.1.docx](%EC%83%8C%EB%93%9C%EC%BF%A8%EB%9F%AC_AAS_%ED%99%9C%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%8D%98%EC%8A%A4_v0.0.1.docx) |

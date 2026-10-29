@@ -1,0 +1,4 @@
+검토 기준: PhotolithographyTrackEquipment_AAS_v0.0.1.aasx / 2026-10-27 최종 재검증 반영. SHA-256: caff914f3dc4dd8df35cc8cf4195e3a8f3118866d4e084df50a096d7dff884f1
+2026-10-27 소음 IRDI 보완 후 검사: 69 Passed·1 Failed. 증빙: 20261027125632_test_result.html. KOSMO-CD #2의 Failed 1건은 공식 https://admin-shell.io/idta/TimeSeries/UtcTime/1/1에 자체 smart-factory IRI 형식을 요구한 오판임. IDTA 02008-1-1 §2.4 p.29의 공식 식별자이므로 원본 유지하며 예외 인정으로 충족 판정함. 표준 SM 6종은 자동검사 제외되어 기존 공식 원본 수동 대조 근거를 함께 적용함.
+HTML SHA-256: b39b98a1601d1dfb7fdf28a6766eb1b197753324c44eee304c170d1ec6ff993b
+HTML 검사대상 경로가 현재 AASX와 일치함. 사용자 재검증 확인과 CDD 보완 시 기록한 해시의 불변을 함께 확인함. HTML 자체에는 파일 해시가 포함되지 않음. 이번 결과 반영 중 AASX 변경 없음.

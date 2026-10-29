@@ -1,0 +1,11 @@
+﻿현행 속성,CDD IRDI·명칭,정의 대조 판단,자료형·단위·물리량,채택·배제 사유,공식 원문 링크,열람일
+NetWeight,"0112/2///61987#ABA553#007
+weight",원문 대조: 운전 가능한 상태의 질량 조건을 확인함. 현행 순중량과 적용 범위를 비교함.,REAL_MEASURE_TYPE / kg / mass,기존 ECLASS AAS707#005가 장비 순중량을 직접 표현하므로 유지. CDD로 중복 치환하지 않음.,https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/e0e56d2682a34311c12575560058dc1c/485b0c5e5149ac08c1258e80004d3f5f?OpenDocument,2026-10-27
+RatedPower,"0112/2///61987#ABA932#006
+power consumption",원문 대조: 정상 운전 중 순간 최대 요구전력과 현행 제조사 정격전력은 동일 조건이 아님.,REAL_MEASURE_TYPE / W / power,ECLASS AAC970#010 유지. 단위가 W로 같아도 정격값을 순간 소비값으로 바꾸지 않음.,https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/e0e56d2682a34311c12575560058dc1c/21487af2294bf55ec1258e80004d3f9a?OpenDocument,2026-10-27
+PowerSupplyFrequency,"0112/2///61987#ABB063#006
+rated frequency",원문 대조: 전원 입력의 정격 주파수 후보임. 현행 복수 정격 50/60 표현과 자료형을 비교함.,REAL_MEASURE_TYPE / Hz / frequency,CDD는 단일 실수형 Hz. 50/60 문자열에 맞는 ECLASS ABG814#003 유지.,https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/e0e56d2682a34311c12575560058dc1c/deef12bff392fac9c1258e80004d3fe5?OpenDocument,2026-10-27
+MaxRunningCurrent,"0112/2///61987#ABP164#002
+rated input current",원문 대조: 제조사 정격 입력전류는 장비의 최대 운전전류와 같다고 단정할 수 없음.,REAL_MEASURE_TYPE / mA / electric current,최대값 의미를 명시한 ECLASS ABE741#004 유지. mA 단위 일치만으로 후보를 채택하지 않음.,https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/e0e56d2682a34311c12575560058dc1c/955296fd0f5ca09fc1258e80004d4568?OpenDocument,2026-10-27
+SoundPowerLevel,"0112/2///61360_4#ADA052#002
+A-weighted sound power level",원문 대조: A가중 음향 파워 후보. 현행 CD의 dB(A)가 A가중 조건을 이미 지정함.,REAL_MEASURE_TYPE / dB(A) / sound-power level,"기존 배제 판단 정정. 동일 A가중 의미의 ECLASS AAZ122#004 채택. 값 72 유지; 공식 단위 dB, A가중은 정의·설명에 명시.",https://cdd.iec.ch/cdd/iec61360/iec61360.nsf/e0e56d2682a34311c12575560058dc1c/c61e41bef8f76581c1258b560040571d?OpenDocument,2026-10-27

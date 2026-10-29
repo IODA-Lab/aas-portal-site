@@ -1,0 +1,7 @@
+출처: IEC Common Data Dictionary, V2.0018.0003. 열람일 2026-10-27.
+IEC 61360-7: weight OR mass OR power OR frequency OR current OR pumping → 2건(호환성 속성).
+IEC 61360-4: net weight/rated power/rated frequency/sound power/pumping speed/operating current 정확 구문 OR 검색 → 11건. 음향 후보 ADA051·ADA052 원문 확인.
+IEC 61987: net weight/rated power/supply frequency/pumping speed/operating current 정확 구문 OR 검색 → 3건. 확장어 weight OR mass OR power OR frequency OR pumping → 536건 중 대상 후보 ABA553·ABA932·ABB063 원문 확인. ABP164 원문 확인.
+배기속도 추가 검색: pump* OR vacuum. IEC 61360-4 1건(tube socket type), IEC 61987 5건 중 ABF257 누설률 원문 확인 후 물리량 차이로 배제. 이 범위에서 배기속도 직접 후보를 확인하지 못했으며 CDD 전체에 없다는 뜻은 아님.
+제출 근거는 식별자·명칭·자료형·단위·공식 링크와 자체 적용 판단으로 구성. IEC 정의 원문 캡처는 내부 대조용으로 별도 보관.
+Copyright IEC. 공식 사이트: https://cdd.iec.ch/

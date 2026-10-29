@@ -1,0 +1,15 @@
+﻿현행 속성,후보 IRDI / 명칭,공식 정의,자료형 / 단위 / 물리량,판정 근거
+NetWeight,"0173-1#02-AAS707#005
+Net weight",Weight of the system (product) in kg,REAL_MEASURE / kg / mass,동일한 장비 사양 의미로 채택. 
+RatedPower,"0173-1#02-AAC970#010
+Rated power",value stipulated by the manufacturer for the electrical power for which the operating unit has been designed with due consideration of the specified ambient and operating condition,REAL_MEASURE / W / active power,동일한 장비 사양 의미로 채택. 공식 단위 W에 맞춰 값 환산: 45 kW = 45000 W. 물리량은 동일함.
+PowerSupplyFrequency,"0173-1#02-ABG814#003
+rated frequency",frequency of the supply assigned to a device by the manufacturer for a specified operating condition,STRING / 해당 없음 / 해당 없음(문자열),동일한 장비 사양 의미로 채택. 복수 정격 주파수 50/60을 문자열로 표현하는 STRING 후보를 채택함.
+MaxRunningCurrent,"0173-1#02-ABE741#004
+max. operating current",maximum value stipulated by the manufacturer of current that is or must be present when operating the system or system components,REAL_MEASURE / mA / electric current,동일한 장비 사양 의미로 채택. 공식 단위 mA에 맞춰 값 환산: 130 A = 130000 mA. 물리량은 동일함.
+SoundPowerLevel,"0173-1#02-AAZ122#004
+A-evaluated sound power level","ten times the decimal logarithm of the ratio of the sound power radiated from the source to be examined to the reference sound power, the frequency weighting being given",REAL_MEASURE / dB / logarithm ratio to base 10,현행 CD 단위 dB(A)에서 A가중 조건 확인. 공식 정의와 동일한 A가중 음향 파워이므로 채택. 값 72는 유지하고 공식 단위 dB를 사용하며 A가중 조건을 설명에 명시함.
+MaxRunningCurrent,"0173-1#02-AAB841#010
+max. operating current (Ith) with operating voltage AC","Maximum value to an operating unit at which, at an alternating voltage and under predetermined application and operating conditions, will unfailingly switch on, guide and/or interrupt the operating unit",REAL_MEASURE / A / electric current,AC 스위칭·통전 조건에 종속된 Ith 정의이므로 장비 전체 최대 운전전류에 적용하지 않음.
+PowerSupplyFrequency,"0173-1#02-BAA302#009
+Rated frequency",Frequency of the current supply for which a device is intended and to which the remaining indicated characteristic data refers,REAL_MEASURE / Hz / frequency,단일 수치 Hz 후보는 현행 50/60 문자열과 형식이 달라 STRING 후보를 채택함.

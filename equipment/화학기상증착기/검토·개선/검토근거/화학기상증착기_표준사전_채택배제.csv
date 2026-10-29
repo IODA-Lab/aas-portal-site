@@ -1,0 +1,13 @@
+﻿현행 속성,후보 IRDI / 명칭,공식 정의,자료형 / 단위 / 물리량,판정 근거
+NetWeight,"0173-1#02-AAS707#005
+Net weight",Weight of the system (product) in kg,REAL_MEASURE / kg / mass,동일한 장비 사양 의미로 채택. 
+RatedPower,"0173-1#02-AAC970#010
+Rated power",value stipulated by the manufacturer for the electrical power for which the operating unit has been designed with due consideration of the specified ambient and operating condition,REAL_MEASURE / W / active power,동일한 장비 사양 의미로 채택. 공식 단위 W에 맞춰 값 환산: 45 kW = 45000 W. 물리량은 동일함.
+PowerSupplyFrequency,"0173-1#02-BAA302#009
+Rated frequency",Frequency of the current supply for which a device is intended and to which the remaining indicated characteristic data refers,REAL_MEASURE / Hz / frequency,동일한 장비 사양 의미로 채택. 
+PumpingSpeed,"0173-1#02-ABC069#004
+volume flow rate",volume flow rate of the gas removed by the pump from the gas phase within the evacuated chamber,REAL_MEASURE / m³/s / volume flow rate or volume velocity,동일한 장비 사양 의미로 채택. 공식 단위 m³/s에 맞춰 값 환산: 2200 L/s = 2.2 m³/s. 물리량은 동일함.
+PumpingSpeed,"0173-1#02-ABC070#004
+volume flow rate of backing pump",maximum volume flow rate for which the conditions are defined in the instruction manual or in a specific standard for the particular vacuum pump,REAL_MEASURE / m³/s / volume flow rate or volume velocity,backing pump 최대 용량을 특정하므로 챔버 배기 유량의 일반 의미와 구분함.
+RatedPower,"0173-1#02-AAB494#010
+Rated power three-phase motor, standard circuit, with 400 V","The value stipulated by the manufacturer that is orientated to the delivered mechanical power of a three-phase motor with due consideration of the specified ambient and operating conditions, namely: 400 V and standard circuit",REAL_MEASURE / kW / active power,400 V 삼상 모터의 기계 출력이며 장비 전체 전기 정격전력과 달라 배제함.
