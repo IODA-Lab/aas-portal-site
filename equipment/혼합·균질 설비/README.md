@@ -1,0 +1,10 @@
+# 혼합/균질 설비
+
+장비 2종
+
+| 장비 | 자료 |
+|---|---|
+| [교반기](%EA%B5%90%EB%B0%98%EA%B8%B0/) | [문서·모델](%EA%B5%90%EB%B0%98%EA%B8%B0/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/) · [시뮬레이션·영상](%EA%B5%90%EB%B0%98%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%C2%B7%EC%98%81%EC%83%81/) · [참고자료](%EA%B5%90%EB%B0%98%EA%B8%B0/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/) · [검토·개선](%EA%B5%90%EB%B0%98%EA%B8%B0/%EA%B2%80%ED%86%A0%C2%B7%EA%B0%9C%EC%84%A0/) |
+| [균질기](%EA%B7%A0%EC%A7%88%EA%B8%B0/) | [문서·모델](%EA%B7%A0%EC%A7%88%EA%B8%B0/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/) · [시뮬레이션·영상](%EA%B7%A0%EC%A7%88%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%C2%B7%EC%98%81%EC%83%81/) · [참고자료](%EA%B7%A0%EC%A7%88%EA%B8%B0/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C/) · [검토·개선](%EA%B7%A0%EC%A7%88%EA%B8%B0/%EA%B2%80%ED%86%A0%C2%B7%EA%B0%9C%EC%84%A0/) |
+
+[← 전체 장비군](../README.md) · [← Archive](../../README.md)
