@@ -1,0 +1,33 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT Nameplate
+
+class "Nameplate" as ID00000001 <<SM>> {
+  +URIOfTheProduct : xs:anyURI = "https://www...."
+  +ManufacturerName : MLP = "ExampleCompany"
+  +ManufacturerProductDesignation : MLP = "ExampleCompa..."
+  +AddressInformation : SMC
+  +ManufacturerProductRoot : MLP [0..1] = "Hydraulic gu..."
+  +ManufacturerProductFamily : MLP [0..1] = "HC hydraulic..."
+  +ManufacturerProductType : xs:string [0..1] = "HC-3213"
+  +OrderCodeOfManufacturer : xs:string = "HC-3213-ORD"
+  +ProductArticleNumberOfManufacturer : xs:string [0..1] = "HC-3213-ART"
+  +SerialNumber : xs:string [0..1] = "HC-SN-2026-0001"
+  +YearOfConstruction : xs:string [0..1] = "2026"
+  +DateOfManufacture : xs:date [0..1] = "2026-01-01"
+  +HardwareVersion : xs:string [0..1] = "1.0.0"
+  +FirmwareVersion : xs:string [0..1] = "1.0.0"
+  +SoftwareVersion : xs:string [0..1] = "1.0.0"
+  +CountryOfOrigin : xs:string [0..1] = "KR"
+  +UniqueFacilityIdentifier : xs:string [0..1] = "https://www...."
+  +Markings : SML [0..1]
+}
+
+@enduml

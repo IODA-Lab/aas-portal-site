@@ -1,0 +1,95 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TechnicalData
+
+class "TechnicalData" as ID00000001 <<SM>> {
+  +GeneralInformation : SMC
+  +ProductClassifications : SML [0..1]
+  +TechnicalPropertyAreas : SML [0..1]
+  +FurtherInformation : SMC [0..1]
+  +SpecificDescriptions : SML [0..1]
+}
+
+class "GeneralInformation" as ID00000002 <<SMC>> {
+  +ManufacturerName : xs:string = "ExampleManuf..."
+  +ManufacturerProductDesignation : MLP = "Six-axis han..."
+  +ManufacturerArticleNumber : xs:string = "EX-MAN-16"
+  +ManufacturerOrderCode : xs:string = "EX-MAN-16"
+  +ProductImages : SML [0..1]
+}
+
+class "ProductImages" as ID00000003 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID00000004 <<SMC>> {
+  +ImageFile : File
+  +ImageNote : MLP [0..1] = "Conceptual i..."
+}
+
+class "ProductClassifications" as ID00000005 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID00000006 <<SMC>> {
+  +ClassificationSystem : xs:string = "ECLASS"
+  +ClassificationSystemVersion : xs:string [0..1] = "ECLASS 16.0"
+  +ProductClassId : xs:string = "0173-1#01-AJ..."
+  +ProductClassCodedName : xs:string = "27-38-01-00"
+  +ProductClassName : MLP [0..1] = "Industrial r..."
+}
+
+class "TechnicalPropertyAreas" as ID00000007 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID00000008 <<SMC>> {
+  +MechanicalSystem : SMC
+  +InstallationAndControlSystem : SMC
+}
+
+class "MechanicalSystem" as ID00000009 <<SMC>> {
+  +ManipulatorCommonTechnicalPropertyArea : SMC
+  +MotionAndKinematicTechnicalPropertyArea : SMC
+  +HandlingPerformanceTechnicalPropertyArea : SMC
+}
+
+class "InstallationAndControlSystem" as ID0000000A <<SMC>> {
+  +ControllerAndInterfaceTechnicalPropertyArea : SMC
+  +EnvironmentalAndPhysicalTechnicalPropertyArea : SMC
+  +ElectricalAndSafetyTechnicalPropertyArea : SMC
+}
+
+class "FurtherInformation" as ID0000000B <<SMC>> {
+  +TextStatement : MLP [0..*] = "Illustrative..."
+  +ValidDate : xs:date = "2026-09-13"
+}
+
+class "SpecificDescriptions" as ID0000000C <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID0000000D <<SMC>> {
+  +HandlingApplicationDescription : MLP = "Modeling exa..."
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000005 *--  ID00000006 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000008 *--  ID00000009 : ""
+ID00000008 *--  ID0000000A : ""
+ID00000007 *--  ID00000008 : ""
+ID00000001 *--  ID00000007 : ""
+ID00000001 *--  ID0000000B : ""
+ID0000000C *--  ID0000000D : ""
+ID00000001 *--  ID0000000C : ""
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT OperationalData
+
+class "OperationalData" as ID00000001 <<SM>> {
+  +ProductionMonitoring : SMC
+  +EquipmentConditionMonitoring : SMC
+}
+
+class "ProductionMonitoring" as ID00000002 <<SMC>> {
+  +DeviceOperationMonitoring : SMC
+  +MaterialAndDimensionMonitoring : SMC
+}
+
+class "EquipmentConditionMonitoring" as ID00000003 <<SMC>> {
+  +HydraulicAndCuttingMonitoring : SMC
+  +SafetyAndProtectionMonitoring : SMC
+  +ElectricalConditionMonitoring : SMC
+}
+
+ID00000001 *--  ID00000002 : ""
+ID00000001 *--  ID00000003 : ""
+@enduml

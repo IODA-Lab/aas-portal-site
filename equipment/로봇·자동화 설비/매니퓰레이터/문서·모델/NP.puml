@@ -1,0 +1,25 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT Nameplate
+
+class "Nameplate" as ID00000001 <<SM>> {
+  +URIOfTheProduct : xs:anyURI = "https://www...."
+  +ManufacturerName : MLP = "ExampleManuf..."
+  +ManufacturerProductDesignation : MLP = "Six-axis ind..."
+  +AddressInformation : SMC
+  +ManufacturerProductRoot : MLP [0..1] = "Industrial r..."
+  +ManufacturerProductFamily : MLP [0..1] = "Handling man..."
+  +ManufacturerProductType : xs:string [0..1] = "HandlingMani..."
+  +OrderCodeOfManufacturer : xs:string = "EX-MAN-16"
+  +ProductArticleNumberOfManufacturer : xs:string [0..1] = "EX-MAN-16"
+  +CountryOfOrigin : xs:string [0..1] = "KR"
+}
+
+@enduml

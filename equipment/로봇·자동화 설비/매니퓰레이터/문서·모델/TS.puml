@@ -1,0 +1,169 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TimeSeries
+
+class "TimeSeries" as ID00000001 <<SM>> {
+  +Metadata : SMC
+  +Segments : SMC
+}
+
+class "Metadata" as ID00000002 <<SMC>> {
+  +Name : MLP = "Manipulator ..."
+  +Description : MLP [0..1] = "60 synthetic..."
+  +Record : SMC
+}
+
+class "Record" as ID00000003 <<SMC>> {
+  +Time : xs:long [1..*] = "0"
+  +RecordMotion : SMC [0..1]
+  +RecordLoadAndCondition : SMC [0..1]
+}
+
+class "RecordMotion" as ID00000004 <<SMC>> {
+  +JointAxisMotionValues : SML
+  +CurrentTcpPose : SMC
+}
+
+class "JointAxisMotionValues" as ID00000005 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "CurrentTcpPose" as ID00000006 <<SMC>> {
+  +TcpPositionX : xs:double = "1102"
+  +TcpPositionY : xs:double = "-340"
+  +TcpPositionZ : xs:double = "980"
+  +TcpOrientationRx : xs:double = "0"
+  +TcpOrientationRy : xs:double = "90"
+  +TcpOrientationRz : xs:double = "0"
+  +PathDeviation : xs:double = "0.08"
+  +MotionMode : xs:string = "Linear"
+}
+
+class "RecordLoadAndCondition" as ID00000007 <<SMC>> {
+  +JointTorqueValues : SML
+  +JointConditionValues : SML
+  +ToolLoadAndGripper : SMC
+  +DeviceHealthState : SMC
+}
+
+class "JointTorqueValues" as ID00000008 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "JointConditionValues" as ID00000009 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "ToolLoadAndGripper" as ID0000000A <<SMC>> {
+  +CurrentPayload : xs:double = "14.2"
+  +WristMomentLoad : xs:double = "62"
+  +ExternalForceEstimate : xs:double = "8"
+  +GripperOpenCloseState : xs:string = "Closed"
+  +GripperForce : xs:double = "35"
+}
+
+class "DeviceHealthState" as ID0000000B <<SMC>> {
+  +VibrationLevel : xs:double = "0.21"
+  +OperatingHours : xs:double = "8420"
+  +OperatingState : xs:string = "Run"
+}
+
+class "Segments" as ID0000000C <<SMC>> {
+  +ExternalSegment : SMC [0..*]
+  +LinkedSegment : SMC [0..*]
+  +InternalSegment : SMC [0..*]
+}
+
+class "ExternalSegment" as ID0000000D <<SMC>> {
+  +Name : MLP [0..1] = "Manipulator ..."
+  +Description : MLP [0..1] = "Synthetic re..."
+  +RecordCount : xs:long [0..1] = "60"
+  +StartTime : xs:string [0..1] = "0"
+  +EndTime : xs:string [0..1] = "59"
+  +Duration : xs:string [0..1] = "PT59S"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-09-13T0..."
+  +File : File [0..1]
+  +Blob : Blob [0..1]
+}
+
+class "LinkedSegment" as ID0000000E <<SMC>> {
+  +Name : MLP [0..1] = "Manipulator ..."
+  +Description : MLP [0..1] = "Illustrative..."
+  +RecordCount : xs:long [0..1] = "60"
+  +StartTime : xs:string [0..1] = "0"
+  +EndTime : xs:string [0..1] = "59"
+  +Duration : xs:string [0..1] = "PT59S"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-09-13T0..."
+  +Endpoint : xs:string = "https://hist..."
+  +Query : xs:string = "assetId=MN-S..."
+}
+
+class "InternalSegment" as ID0000000F <<SMC>> {
+  +Name : MLP [0..1] = "Manipulator ..."
+  +Description : MLP [0..1] = "One syntheti..."
+  +RecordCount : xs:long [0..1] = "1"
+  +StartTime : xs:string [0..1] = "0"
+  +EndTime : xs:string [0..1] = "0"
+  +Duration : xs:string [0..1] = "PT0S"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-09-13T0..."
+  +Records : SMC
+}
+
+class "Records" as ID00000010 <<SMC>> {
+  +Record00000 : SMC [0..*]
+}
+
+class "Record00000" as ID00000011 <<SMC>> {
+  +Time : xs:long [1..*] = "0"
+  +RecordMotion : SMC [0..1]
+  +RecordLoadAndCondition : SMC [0..1]
+}
+
+ID00000004 *--  ID00000005 : ""
+ID00000004 *--  ID00000006 : ""
+ID00000003 *--  ID00000004 : ""
+ID00000007 *--  ID00000008 : ""
+ID00000007 *--  ID00000009 : ""
+ID00000007 *--  ID0000000A : ""
+ID00000007 *--  ID0000000B : ""
+ID00000003 *--  ID00000007 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID0000000C *--  ID0000000D : ""
+ID0000000C *--  ID0000000E : ""
+ID00000010 *--  ID00000011 : ""
+ID0000000F *--  ID00000010 : ""
+ID0000000C *--  ID0000000F : ""
+ID00000001 *--  ID0000000C : ""
+@enduml

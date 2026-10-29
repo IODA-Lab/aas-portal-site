@@ -1,0 +1,104 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TimeSeries
+
+class "TimeSeries" as ID00000001 <<SM>> {
+  +Metadata : SMC
+  +Segments : SMC
+}
+
+class "Metadata" as ID00000002 <<SMC>> {
+  +Name : MLP = "Hydraulic cu..."
+  +Description : MLP [0..1] = "Time series ..."
+  +Record : SMC
+}
+
+class "Record" as ID00000003 <<SMC>> {
+  +Time : xs:long [1..*] = "30"
+  +ProductionHistory : SMC
+  +EquipmentConditionHistory : SMC
+}
+
+class "ProductionHistory" as ID00000004 <<SMC>> {
+  +OperatingCycleHistory : SMC
+  +CuttingGeometryHistory : SMC
+}
+
+class "EquipmentConditionHistory" as ID00000005 <<SMC>> {
+  +HydraulicLoadHistory : SMC
+  +ElectricalLoadHistory : SMC
+  +ToolConditionHistory : SMC
+  +SafetyStateHistory : SMC
+}
+
+class "Segments" as ID00000006 <<SMC>> {
+  +ExternalSegment : SMC [0..*]
+  +LinkedSegment : SMC [0..*]
+  +InternalSegment : SMC [0..*]
+}
+
+class "ExternalSegment" as ID00000007 <<SMC>> {
+  +Name : MLP [0..1] = "Hydraulic sh..."
+  +Description : MLP [0..1] = "Hydraulic cu..."
+  +RecordCount : xs:long [0..1] = "86400"
+  +StartTime : xs:string [0..1] = "2026-06-22T0..."
+  +EndTime : xs:string [0..1] = "2026-06-22T2..."
+  +Duration : xs:string [0..1] = "PT24H"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-23T0..."
+  +File : File [0..1]
+  +Blob : Blob [0..1]
+}
+
+class "LinkedSegment" as ID00000008 <<SMC>> {
+  +Name : MLP [0..1] = "Hydraulic sh..."
+  +Description : MLP [0..1] = "Hydraulic cu..."
+  +RecordCount : xs:long [0..1] = "86400"
+  +StartTime : xs:string [0..1] = "2026-06-22T0..."
+  +EndTime : xs:string [0..1] = "2026-06-22T2..."
+  +Duration : xs:string [0..1] = "PT24H"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-23T0..."
+  +Endpoint : xs:string = "https://hist..."
+  +Query : xs:string = "assetId=HC-S..."
+}
+
+class "InternalSegment" as ID00000009 <<SMC>> {
+  +Name : MLP [0..1] = "Recent hydra..."
+  +Description : MLP [0..1] = "Recent hydra..."
+  +RecordCount : xs:long [0..1] = "60"
+  +StartTime : xs:string [0..1] = "2026-06-22T0..."
+  +EndTime : xs:string [0..1] = "2026-06-22T0..."
+  +Duration : xs:string [0..1] = "PT1M"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-22T0..."
+  +Records : SMC
+}
+
+class "Records" as ID0000000A <<SMC>> {
+  +Record00000 : SMC [0..*]
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000003 *--  ID00000005 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000006 *--  ID00000007 : ""
+ID00000006 *--  ID00000008 : ""
+ID00000009 *--  ID0000000A : ""
+ID00000006 *--  ID00000009 : ""
+ID00000001 *--  ID00000006 : ""
+@enduml

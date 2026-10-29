@@ -1,0 +1,54 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT AIModelNameplate
+
+class "AIModelNameplate" as ID00000001 <<SM>> {
+  +URIOfTheProduct : xs:string = "https://www...."
+  +Version : xs:string = "1.0.0"
+  +ContactInformation : Ref
+  +Storage : xs:string = "/aasx/files/..."
+  +KindOfLearning : MLP = "Planned supe..."
+  +Inputs : SMC
+  +Outputs : SMC
+  +TrainingResults : SMC
+  +Details : SMC
+  +AITypeSpecificInformation : SMC
+}
+
+class "Inputs" as ID00000002 <<SMC>> {
+  +KindOfInput : xs:string = "Time-series ..."
+  +DimensionN : SMC [0..*]
+  +Preprocessing : File [0..1]
+}
+
+class "Outputs" as ID00000003 <<SMC>> {
+  +DimensionN : SMC [1..*]
+}
+
+class "TrainingResults" as ID00000004 <<SMC>> {
+}
+
+class "Details" as ID00000005 <<SMC>> {
+  +FileExtension : xs:string = ".json"
+  +AIFramework : xs:string = "Framework-ne..."
+  +ProgramLanguage : xs:string = "Python"
+  +Requirements : File [0..1]
+}
+
+class "AITypeSpecificInformation" as ID00000006 <<SMC>> {
+  +Type : MLP = "CNN-LSTM arc..."
+}
+
+ID00000001 *--  ID00000002 : ""
+ID00000001 *--  ID00000003 : ""
+ID00000001 *--  ID00000004 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000001 *--  ID00000006 : ""
+@enduml

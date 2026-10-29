@@ -1,0 +1,85 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TechnicalData
+
+class "TechnicalData" as ID00000001 <<SM>> {
+  +GeneralInformation : SMC
+  +ProductClassifications : SML [0..1]
+  +TechnicalPropertyAreas : SML [0..1]
+  +FurtherInformation : SMC [0..1]
+}
+
+class "GeneralInformation" as ID00000002 <<SMC>> {
+  +ManufacturerName : xs:string = "ExampleCompany"
+  +ManufacturerProductDesignation : MLP = "ExampleCompa..."
+  +ManufacturerArticleNumber : xs:string = "HC-3213-ART"
+  +ManufacturerOrderCode : xs:string = "HC-3213-ORD"
+  +ProductImages : SML [0..1]
+}
+
+class "ProductImages" as ID00000003 <<SML>> {
+  +[00]  : SMC
+}
+
+class "[00] " as ID00000004 <<SMC>> {
+  +ImageFile : File
+  +ImageNote : MLP [0..1] = "Schematic fr..."
+}
+
+class "ProductClassifications" as ID00000005 <<SML>> {
+  +[00]  : SMC
+}
+
+class "[00] " as ID00000006 <<SMC>> {
+  +ClassificationSystem : xs:string = "ECLASS"
+  +ClassificationSystemVersion : xs:string [0..1] = "ECLASS 16.0"
+  +ClassificationSystemUrl : xs:string [0..1] = "https://ecla..."
+  +ProductClassId : xs:string = "0173-1#01-AK..."
+  +ProductClassCodedName : xs:string = "36-62-01"
+  +ProductClassName : MLP [0..1] = "Shear for sh..."
+}
+
+class "TechnicalPropertyAreas" as ID00000007 <<SML>> {
+  +[00] HydraulicCutterTechnicalPropertyArea : SMC
+}
+
+class "[00] HydraulicCutterTechnicalPropertyArea" as ID00000008 <<SMC>> {
+  +MechanicalSpecifications : SMC
+  +DriveAndSupportSpecifications : SMC
+}
+
+class "MechanicalSpecifications" as ID00000009 <<SMC>> {
+  +HydraulicCutterCommonSpecifications : SMC
+  +CuttingCapacityAndForceSpecifications : SMC
+  +BladeAndStructureSpecifications : SMC
+}
+
+class "DriveAndSupportSpecifications" as ID0000000A <<SMC>> {
+  +HydraulicSystemSpecifications : SMC
+  +LubricationAndChipHandlingSpecifications : SMC
+  +ElectricalAndSafetySpecifications : SMC
+}
+
+class "FurtherInformation" as ID0000000B <<SMC>> {
+  +TextStatement : MLP [0..*] = "Modeling exa..."
+  +ValidDate : xs:date = "2026-09-09"
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000005 *--  ID00000006 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000008 *--  ID00000009 : ""
+ID00000008 *--  ID0000000A : ""
+ID00000007 *--  ID00000008 : ""
+ID00000001 *--  ID00000007 : ""
+ID00000001 *--  ID0000000B : ""
+@enduml

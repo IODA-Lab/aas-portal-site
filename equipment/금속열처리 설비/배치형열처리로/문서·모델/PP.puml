@@ -1,0 +1,83 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT ProcessParameters
+
+class "ProcessParameters" as ID00000001 <<SM>> {
+  +Processes : SMC
+}
+
+class "Processes" as ID00000002 <<SMC>> {
+  +Process__00__ : SMC [0..*]
+}
+
+class "Process__00__" as ID00000003 <<SMC>> {
+  +ProcessId : xs:string = "BHF-P-001"
+  +ProcessName : xs:string = "Batch atmosp..."
+  +ProcessDescription : MLP = "Process para..."
+  +PlannedProcessTime : xs:duration = "PT6H"
+  +ProductParameters : SMC
+  +ProcessParameters : SMC
+  +ResourceParameters : SMC
+  +ProcessBoM : SMC
+}
+
+class "ProductParameters" as ID00000004 <<SMC>> {
+  +WorkpieceRequirements : SMC
+}
+
+class "WorkpieceRequirements" as ID00000005 <<SMC>> {
+  +MaterialRequirements : SMC
+  +LoadAndQualityTargets : SMC
+}
+
+class "ProcessParameters" as ID00000006 <<SMC>> {
+  +ThermalRecipe : SMC
+  +AtmosphereConsumables : SMC
+}
+
+class "ThermalRecipe" as ID00000007 <<SMC>> {
+  +SequenceAndTemperatureTargets : SMC
+  +AtmosphereQuenchAndProtectionTargets : SMC
+}
+
+class "AtmosphereConsumables" as ID00000008 <<SMC>> {
+  +AtmosphereFormationGases : SMC
+  +PurgeGases : SMC
+}
+
+class "ResourceParameters" as ID00000009 <<SMC>> {
+  +FurnaceResourceRequirements : SMC
+}
+
+class "FurnaceResourceRequirements" as ID0000000A <<SMC>> {
+  +MeasurementResources : SMC
+  +ActuationResources : SMC
+}
+
+class "ProcessBoM" as ID0000000B <<SMC>> {
+  +BatchMaterialInputs : SMC
+}
+
+class "BatchMaterialInputs" as ID0000000C <<SMC>> {
+  +WorkpieceInputs : SMC
+}
+
+ID00000004 *--  ID00000005 : ""
+ID00000003 *--  ID00000004 : ""
+ID00000006 *--  ID00000007 : ""
+ID00000006 *--  ID00000008 : ""
+ID00000003 *--  ID00000006 : ""
+ID00000009 *--  ID0000000A : ""
+ID00000003 *--  ID00000009 : ""
+ID0000000B *--  ID0000000C : ""
+ID00000003 *--  ID0000000B : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+@enduml
