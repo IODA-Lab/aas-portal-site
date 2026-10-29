@@ -1019,7 +1019,7 @@
       "source_url": "https://drive.google.com/file/d/1rykyH4KK9cMMTTXbKH-5QV3LHP9SVvzq/view?usp=drivesdk",
       "source_origin": "Drive",
       "responsible_in_source": "",
-      "note": "2026-09-29 검사 기록. 현재 등록 보고서와 검사 규칙·판정이 달라 시점별 기록으로 보존하며 현재 최종 통과 보고서로 표시하지 않음",
+      "note": "2026-09-29에 작성된 검사 보고서입니다. 다른 등록 보고서와 검사 규칙 및 판정 결과에 차이가 있어 시점별 검토 기록으로 제공합니다.",
       "section_path": "equipment/도금 설비/수직전기동도금/검토·개선",
       "source_path": "8월 산출물/수직전기동도금_v0.0.1/개발기관/자체검증결과/20260929201257_수직전기동도금_result.html"
     },
@@ -3627,7 +3627,7 @@
       "source_url": "https://drive.google.com/file/d/1qnA5a_mteq9YMatucGIXYuJNsjhVQdqr/view?usp=drivesdk",
       "source_origin": "Drive",
       "responsible_in_source": "",
-      "note": "승인된 Drive 개발계획서에 명판 예시·표준 요소 적용 범위 등의 내용 수정이 확인됨. 기존 등록 계획서는 보존하고 승인 원본명으로 구분해 등록",
+      "note": "명판 예시와 표준 요소의 적용 범위를 개정한 개발계획서입니다. 개정 전후 문서를 비교할 수 있도록 기존 등록본과 구분하여 제공합니다.",
       "section_path": "equipment/섬유가공 설비/표백기/문서·모델",
       "source_path": "10월 산출물/표백기_김지형/표백기_개발계획서.hwp"
     },
@@ -7390,12 +7390,12 @@
       "kind_id": "simulator",
       "source_url": "https://drive.google.com/file/d/1VYse3g0GAmA4u8Zxj6GuUhnW8YDtYN53/view?usp=drivesdk",
       "source_origin": "Drive",
-      "note": "설명 영상 또는 실행 자료가 있는 시뮬레이션 묶음. 실행 검증 완료로 표시하지 않음",
+      "note": "설명 영상 또는 실행 자료를 포함하는 시뮬레이션 자료입니다. 실행 환경과 검증 범위는 해당 자료의 안내 문서를 참조하시기 바랍니다.",
       "section_path": "equipment/분리·여과 설비/원심분리기/시뮬레이션·영상",
       "responsible_in_source": "오주현"
     },
     {
-      "name": "로컬_공유후보_주조_시뮬레이션_소스.zip",
+      "name": "주조_디지털트윈_시뮬레이션_소스.zip",
       "size": 68061522,
       "url": "https://github.com/IODA-Lab/aas-portal-site/releases/download/aas-archive-20261030/eq40-local-76a4cb5df229.zip",
       "storage": "Releases",
@@ -7410,9 +7410,10 @@
       "kind_id": "simulator",
       "source_url": null,
       "source_origin": "local",
-      "note": "주조 소스·3D 자산·설정·샘플 입력·실행 안내 191개. 별도 PC 재현 검증은 미실시",
+      "note": "주조 디지털 트윈의 소스 코드, 3D 자산, 설정, 입력 데이터 및 실행 안내 191개 파일을 포함합니다. 실행 환경과 절차는 동봉된 프로젝트 안내 문서를 참조하시기 바랍니다. 다른 PC에서의 독립 재현은 검증되지 않았습니다.",
       "section_path": "equipment/주조·주물사 처리 설비/주조 장비/시뮬레이션·영상",
-      "responsible_in_source": ""
+      "responsible_in_source": "",
+      "original_filename": "로컬_공유후보_주조_시뮬레이션_소스.zip"
     },
     {
       "name": "casting_cell_process_h264.mp4",
@@ -7430,7 +7431,7 @@
       "kind_id": "video",
       "source_url": null,
       "source_origin": "local",
-      "note": "기존 주조 공정 설명 영상. 같은 영상의 대용량 원본은 제외",
+      "note": "주조 공정의 구성과 운전 절차를 설명하는 시연 영상입니다(H.264 형식).",
       "section_path": "equipment/주조·주물사 처리 설비/주조 장비/시뮬레이션·영상",
       "responsible_in_source": ""
     },
@@ -7450,7 +7451,7 @@
       "kind_id": "video",
       "source_url": "https://drive.google.com/file/d/1cI_P4V4pk41T6A9dC6BzqK-t7onh1Z_s/view?usp=drivesdk",
       "source_origin": "Drive",
-      "note": "설명 영상 또는 실행 자료가 있는 시뮬레이션 묶음. 실행 검증 완료로 표시하지 않음",
+      "note": "설명 영상 또는 실행 자료를 포함하는 시뮬레이션 자료입니다. 실행 환경과 검증 범위는 해당 자료의 안내 문서를 참조하시기 바랍니다.",
       "section_path": "equipment/섬유가공 설비/날염기/시뮬레이션·영상",
       "responsible_in_source": "김동언"
     }

@@ -1,6 +1,6 @@
 # 한양대 AAS Archive
 
-완성본뿐 아니라 초안·수정 전 파일·중간 작업·참고자료·검토 기록을 함께 정리합니다.
+장비별 AAS 참조모델, 개발·활용 문서, 시뮬레이션 자료 및 검토 이력을 제공하는 자료 저장소입니다.
 
 ## 장비군별 자료
 
@@ -10,7 +10,7 @@
 
 ## 등록 현황
 
-[현재 산출물·등록 계정](resources/registration-status.md) · [파일별 출처](resources/registration-files.md) · [이번 대용량 첨부](https://github.com/IODA-Lab/aas-portal-site/releases/tag/aas-archive-20261030)
+[자료 등록 현황](resources/registration-status.md) · [자료별 출처 및 등록 이력](resources/registration-files.md) · [대용량 자료 다운로드](https://github.com/IODA-Lab/aas-portal-site/releases/tag/aas-archive-20261030)
 
 ## 자료 유형
 
@@ -23,5 +23,5 @@
 | [시뮬레이션·코드·실행자료](resources/simulator.md) | 프로젝트·소스 코드·장면 파일, 대시보드 설정, 입력·샘플 데이터, 실행 방법·환경 및 데모 링크. |
 | [영상·화면 캡처](resources/video.md) | 설명·시연 영상, 중간 제작 영상, 화면 캡처와 관련 원본. |
 | [참고자료·링크](resources/reference.md) | 장비 매뉴얼·카탈로그·사양표·기술 문서·논문, 제품 페이지·YouTube 등 원본 링크와 참고한 내용·사용 위치. |
-| [검토·피드백·개선 기록](resources/review.md) | 받은 피드백, 검증 결과·검토표, 수정 전후 기록, 미해결 사항. AI 검토 결과는 확인한 내용과 미확인 내용을 구분합니다. |
+| [검토·피드백·개선 기록](resources/review.md) | 검토 의견, 검증 결과, 검토표, 개정 이력 및 미해결 사항을 수록합니다. AI를 활용한 검토 자료의 확인 범위는 각 자료의 기재 내용을 참조하시기 바랍니다. |
 | [공통 양식·도구](resources/tool.md) | 여러 장비에 공통으로 쓰는 문서 양식, 변환기·도구, 공통 실행 가이드. |
