@@ -12,6 +12,7 @@
 
 | 장비 | 자료 | 등록 계정 |
 |---|---|---|
+| 건조기(분무 건조기) | [SprayDryer_v0.0.1.aasx](../equipment/%EA%B1%B4%EC%A1%B0%C2%B7%EC%A0%9C%EC%8A%B5%20%EC%84%A4%EB%B9%84/%EA%B1%B4%EC%A1%B0%EA%B8%B0/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/SprayDryer_v0.0.1.aasx) | [LeeSoyoon-0808](https://github.com/LeeSoyoon-0808) |
 | 건조기 | [Dryer_v0.0.1_260930.aasx](../equipment/%EA%B1%B4%EC%A1%B0%C2%B7%EC%A0%9C%EC%8A%B5%20%EC%84%A4%EB%B9%84/%EA%B1%B4%EC%A1%B0%EA%B8%B0/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/Dryer_v0.0.1_260930.aasx) | [ijkim4110-IODA](https://github.com/ijkim4110-IODA) |
 | 에어드라이어 | [AirDryer_V0.0.1.aasx](../equipment/%EA%B1%B4%EC%A1%B0%C2%B7%EC%A0%9C%EC%8A%B5%20%EC%84%A4%EB%B9%84/%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4%EC%96%B4/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/AirDryer_V0.0.1.aasx) | [ijkim4110-IODA](https://github.com/ijkim4110-IODA) |
 | 레이저측정기 | [LaserMeasuringInstrument_AAS_V0.0.1.aasx](../equipment/%EA%B3%84%EC%B8%A1%C2%B7%EB%B6%84%EC%84%9D%20%EC%84%A4%EB%B9%84/%EB%A0%88%EC%9D%B4%EC%A0%80%EC%B8%A1%EC%A0%95%EA%B8%B0/%EB%AC%B8%EC%84%9C%C2%B7%EB%AA%A8%EB%8D%B8/LaserMeasuringInstrument_AAS_V0.0.1.aasx) | [millkiss7754](https://github.com/millkiss7754) |
