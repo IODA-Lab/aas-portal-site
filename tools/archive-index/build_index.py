@@ -101,7 +101,8 @@ def render_view(equipment, section):
         for (_, name), sections in members:
             files = [f for f in real_files(sections[section]) if section != "AASX" or f.endswith(".aasx")]
             if files:
-                links = "<br>".join(link(Path(f).name, f) for f in sorted(files))
+                # 파일 이름이 길어 줄이 바뀌지 않도록 작은 글자로 쓴다.
+                links = "<br>".join(f"<sub>{link(Path(f).name, f)}</sub>" for f in sorted(files))
                 rows.append([link(name, f"equipment/{group}/{name}"), links])
         if rows:
             groups.append((group, rows))
