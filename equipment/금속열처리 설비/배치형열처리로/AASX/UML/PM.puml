@@ -1,0 +1,65 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT PredictiveMaintenance
+
+class "PredictiveMaintenance" as ID00000001 <<SM>> {
+  +RemainingUsefulLifePrediction : SMC
+}
+
+class "RemainingUsefulLifePrediction" as ID00000002 <<SMC>> {
+  +RemainingUsefulLifetime : Ent
+  +RemainingUsfulLifeDateTime : xs:dateTime [0..1] = "2027-07-06T0..."
+  +ConfidenceInterval : Range = "7800 .. 10200"
+  +ListRULBoundaryConditions : SML
+  +PredictionModelInformation : SMC
+  +ListPreAlerts : SML [0..1]
+  +AlertAfterExceedingRemainingUsableLife : SMC [0..1]
+}
+
+class "RemainingUsefulLifetime" as ID00000003 <<Ent>> {
+  +IndicationType : xs:string = "operating hours"
+  +DurationValue : xs:double = "9000"
+  +EngineeringUnit : xs:string = "h"
+  +StartValue : xs:double = "24800"
+  +StartDateTime : xs:dateTime [0..1] = "2026-06-26T0..."
+  +Description : xs:string [0..1] = "대표 예측 대상은 배치..."
+}
+
+class "ListRULBoundaryConditions" as ID00000004 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+  +[06]  : SMC [1..*]
+}
+
+class "PredictionModelInformation" as ID00000005 <<SMC>> {
+  +ModelType : xs:string = "ModelTypeHybrid"
+  +ModelDescription : xs:string [0..1] = "Hybrid RUL m..."
+}
+
+class "ListPreAlerts" as ID00000006 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "AlertAfterExceedingRemainingUsableLife" as ID00000007 <<SMC>> {
+  +AlertMessage : xs:string [0..1] = "Alert: the f..."
+  +MaintenanceRequired : xs:boolean = "false"
+}
+
+ID00000002 *--  ID00000003 : ""
+ID00000002 *--  ID00000004 : ""
+ID00000002 *--  ID00000005 : ""
+ID00000002 *--  ID00000006 : ""
+ID00000002 *--  ID00000007 : ""
+ID00000001 *--  ID00000002 : ""
+@enduml

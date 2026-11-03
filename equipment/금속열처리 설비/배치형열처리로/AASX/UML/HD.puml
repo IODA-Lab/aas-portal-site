@@ -1,0 +1,89 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT HandoverDocumentation
+
+class "HandoverDocumentation" as ID00000001 <<SM>> {
+  +Documents : SML
+}
+
+class "Documents" as ID00000002 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+}
+
+class "[00] " as ID00000003 <<SMC>> {
+  +DocumentIds : SML
+  +DocumentClassifications : SML
+  +DocumentVersions : SML
+}
+
+class "DocumentIds" as ID00000004 <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentClassifications" as ID00000005 <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentVersions" as ID00000006 <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "[01] " as ID00000007 <<SMC>> {
+  +DocumentIds : SML
+  +DocumentClassifications : SML
+  +DocumentVersions : SML
+}
+
+class "DocumentIds" as ID00000008 <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentClassifications" as ID00000009 <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentVersions" as ID0000000A <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "[02] " as ID0000000B <<SMC>> {
+  +DocumentIds : SML
+  +DocumentClassifications : SML
+  +DocumentVersions : SML
+}
+
+class "DocumentIds" as ID0000000C <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentClassifications" as ID0000000D <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+class "DocumentVersions" as ID0000000E <<SML>> {
+  +[00]  : SMC [1..*]
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000003 *--  ID00000005 : ""
+ID00000003 *--  ID00000006 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000007 *--  ID00000008 : ""
+ID00000007 *--  ID00000009 : ""
+ID00000007 *--  ID0000000A : ""
+ID00000002 *--  ID00000007 : ""
+ID0000000B *--  ID0000000C : ""
+ID0000000B *--  ID0000000D : ""
+ID0000000B *--  ID0000000E : ""
+ID00000002 *--  ID0000000B : ""
+ID00000001 *--  ID00000002 : ""
+@enduml

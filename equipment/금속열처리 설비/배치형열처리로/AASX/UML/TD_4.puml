@@ -1,0 +1,138 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TechnicalData
+
+class "TechnicalData" as ID00000001 <<SM>> {
+  +GeneralInformation : SMC
+  +ProductClassifications : SML [0..1]
+  +TechnicalPropertyAreas : SML [0..1]
+  +FurtherInformation : SMC [0..1]
+}
+
+class "GeneralInformation" as ID00000002 <<SMC>> {
+  +ManufacturerName : xs:string = "ExampleCompany"
+  +CompanyLogo : File [0..1]
+  +ManufacturerProductDesignation : MLP = "ExampleCompa..."
+  +ManufacturerArticleNumber : xs:string = "BHF-1200-ART"
+  +ManufacturerOrderCode : xs:string = "BHF-1200-ORD"
+  +ProductImages : SML [0..1]
+}
+
+class "ProductImages" as ID00000003 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID00000004 <<SMC>> {
+  +ImageFile : File
+  +ImageNote : MLP [0..1] = "Side view of..."
+}
+
+class "ProductClassifications" as ID00000005 <<SML>> {
+  +[00]  : SMC [0..*]
+}
+
+class "[00] " as ID00000006 <<SMC>> {
+  +ClassificationSystem : xs:string = "ECLASS"
+  +ClassificationSystemVersion : xs:string [0..1] = "16.0"
+  +ClassificationSystemUrl : xs:string [0..1] = "https://ecla..."
+  +ProductClassId : xs:string = "0173-1#01-AK..."
+  +ProductClassCodedName : xs:string = "36-08-01-00"
+  +ProductClassName : MLP [0..1] = "Chamber furnace"
+}
+
+class "TechnicalPropertyAreas" as ID00000007 <<SML>> {
+  +[00]  : SMC [0..*]
+  +[01]  : SMC [0..*]
+  +[02]  : SMC [0..*]
+  +[03]  : SMC [0..*]
+  +[04]  : SMC [0..*]
+  +[05]  : SMC [0..*]
+}
+
+class "[00] " as ID00000008 <<SMC>> {
+  +FurnaceCommonSystem : SMC
+}
+
+class "FurnaceCommonSystem" as ID00000009 <<SMC>> {
+  +ProcessAndMaterialSpecifications : SMC
+  +InstallationSpecifications : SMC
+}
+
+class "[01] " as ID0000000A <<SMC>> {
+  +HeatTreatmentCapacityAndProductionSystem : SMC
+}
+
+class "HeatTreatmentCapacityAndProductionSystem" as ID0000000B <<SMC>> {
+  +LoadAndCycleSpecifications : SMC
+  +ProductQualitySpecifications : SMC
+}
+
+class "[02] " as ID0000000C <<SMC>> {
+  +TemperatureAndAtmosphereSystem : SMC
+}
+
+class "TemperatureAndAtmosphereSystem" as ID0000000D <<SMC>> {
+  +AtmosphereSpecifications : SMC
+  +ThermalSpecifications : SMC
+}
+
+class "[03] " as ID0000000E <<SMC>> {
+  +ChamberAndDimensionSystem : SMC
+}
+
+class "ChamberAndDimensionSystem" as ID0000000F <<SMC>> {
+  +ChamberConstructionSpecifications : SMC
+  +WorkingEnvelopeSpecifications : SMC
+  +InstallationEnvelopeSpecifications : SMC
+}
+
+class "[04] " as ID00000010 <<SMC>> {
+  +HeatingAndQuenchingSystem : SMC
+}
+
+class "HeatingAndQuenchingSystem" as ID00000011 <<SMC>> {
+  +HeatingSpecifications : SMC
+  +QuenchingSpecifications : SMC
+}
+
+class "[05] " as ID00000012 <<SMC>> {
+  +ElectricalAndSafetySystem : SMC
+}
+
+class "ElectricalAndSafetySystem" as ID00000013 <<SMC>> {
+  +PowerSupplySpecifications : SMC
+  +SafetySpecifications : SMC
+}
+
+class "FurtherInformation" as ID00000014 <<SMC>> {
+  +TextStatement : MLP [0..*] = "Reference mo..."
+  +ValidDate : xs:date = "2026-09-14"
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000005 *--  ID00000006 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000008 *--  ID00000009 : ""
+ID00000007 *--  ID00000008 : ""
+ID0000000A *--  ID0000000B : ""
+ID00000007 *--  ID0000000A : ""
+ID0000000C *--  ID0000000D : ""
+ID00000007 *--  ID0000000C : ""
+ID0000000E *--  ID0000000F : ""
+ID00000007 *--  ID0000000E : ""
+ID00000010 *--  ID00000011 : ""
+ID00000007 *--  ID00000010 : ""
+ID00000012 *--  ID00000013 : ""
+ID00000007 *--  ID00000012 : ""
+ID00000001 *--  ID00000007 : ""
+ID00000001 *--  ID00000014 : ""
+@enduml

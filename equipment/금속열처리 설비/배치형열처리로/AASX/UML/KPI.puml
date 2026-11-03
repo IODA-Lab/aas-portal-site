@@ -1,0 +1,30 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT ProcessVariablesForManufacturingKPICalculation
+
+class "ProcessVariablesForManufacturingKPICalculation" as ID00000001 <<SM>> {
+  +PlannedBusyTime : SMC [0..1]
+  +ActualUnitBusyTime : SMC [0..1]
+  +ActualProductionTime : SMC [0..1]
+  +ActualUnitProcessingTime : SMC [0..1]
+  +ActualUnitSetupTime : SMC [0..1]
+  +ActualUnitDownTime : SMC [0..1]
+  +ActualUnitDelayTime : SMC [0..1]
+  +ActualOrderExecutionTime : SMC [0..1]
+  +PlannedRuntimePerItem : SMC [0..1]
+  +ProducedQuantity : SMC [0..1]
+  +GoodQuantity : SMC [0..1]
+  +ScrapQuantity : SMC [0..1]
+  +ReworkQuantity : SMC [0..1]
+  +GoodPart : SMC [0..1]
+  +InspectedPart : SMC [0..1]
+}
+
+@enduml

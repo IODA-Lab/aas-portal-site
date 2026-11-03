@@ -1,0 +1,203 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT OperationalData
+
+class "OperationalData" as ID00000001 <<SM>> {
+  +AxisMotionMonitoring : SMC
+  +PayloadAndForceMonitoring : SMC
+  +ConditionAndHealthMonitoring : SMC
+  +HandlingQualityMonitoring : SMC
+  +SafetyAndCollisionMonitoring : SMC
+  +AnalyticsAndApplicationContext : SMC
+}
+
+class "AxisMotionMonitoring" as ID00000002 <<SMC>> {
+  +JointAxisMotionValues : SML
+  +CurrentTcpPose : SMC
+}
+
+class "JointAxisMotionValues" as ID00000003 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "CurrentTcpPose" as ID00000004 <<SMC>> {
+  +TcpPositionX : xs:double = "1102"
+  +TcpPositionY : xs:double = "-340"
+  +TcpPositionZ : xs:double = "980"
+  +TcpOrientationRx : xs:double = "0"
+  +TcpOrientationRy : xs:double = "90"
+  +TcpOrientationRz : xs:double = "0"
+  +PathDeviation : xs:double = "0.08"
+  +MotionMode : xs:string = "Linear"
+}
+
+class "PayloadAndForceMonitoring" as ID00000005 <<SMC>> {
+  +JointTorqueValues : SML
+  +ToolLoadAndGripper : SMC
+}
+
+class "JointTorqueValues" as ID00000006 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "ToolLoadAndGripper" as ID00000007 <<SMC>> {
+  +CurrentPayload : xs:double = "14.2"
+  +WristMomentLoad : xs:double = "62"
+  +ExternalForceEstimate : xs:double = "8"
+  +GripperOpenCloseState : xs:string = "Closed"
+  +GripperForce : xs:double = "35"
+}
+
+class "ConditionAndHealthMonitoring" as ID00000008 <<SMC>> {
+  +JointConditionValues : SML
+  +DeviceHealthState : SMC
+}
+
+class "JointConditionValues" as ID00000009 <<SML>> {
+  +[00]  : SMC [1..*]
+  +[01]  : SMC [1..*]
+  +[02]  : SMC [1..*]
+  +[03]  : SMC [1..*]
+  +[04]  : SMC [1..*]
+  +[05]  : SMC [1..*]
+}
+
+class "DeviceHealthState" as ID0000000A <<SMC>> {
+  +VibrationLevel : xs:double = "0.21"
+  +OperatingHours : xs:double = "8420"
+  +OperatingState : xs:string = "Run"
+}
+
+class "HandlingQualityMonitoring" as ID0000000B <<SMC>> {
+  +PlacementAccuracy : SMC
+  +HandlingCycleResult : SMC
+}
+
+class "PlacementAccuracy" as ID0000000C <<SMC>> {
+  +PlacementPositionError : xs:double = "0.05"
+  +RepeatabilityDrift : xs:double = "+0.012"
+}
+
+class "HandlingCycleResult" as ID0000000D <<SMC>> {
+  +LastCycleTime : xs:double = "0.47"
+  +PickPlaceSuccessFlag : xs:string = "Success"
+  +MisplacementCount : xs:integer = "2"
+}
+
+class "SafetyAndCollisionMonitoring" as ID0000000E <<SMC>> {
+  +ActiveSafetyState : SMC
+  +SafetyEventCounters : SMC
+}
+
+class "ActiveSafetyState" as ID0000000F <<SMC>> {
+  +CollisionDetectedFlag : xs:boolean = "false"
+  +SafetyZoneStatus : xs:string = "SLS active (..."
+  +EmergencyStopState : xs:string = "Normal"
+  +CurrentSpeedOverride : xs:double = "30"
+}
+
+class "SafetyEventCounters" as ID00000010 <<SMC>> {
+  +ProtectiveStopCount : xs:integer = "5"
+}
+
+class "AnalyticsAndApplicationContext" as ID00000011 <<SMC>> {
+  +ManipulatorAIApplicationContext : SMC
+  +ManipulatorMaintenanceOperationContext : SMC
+  +ManipulatorComponentHealthContext : SMC
+  +HandlingKpiObservation : SMC
+  +ModelSupportContact : SMC
+  +TimeSeriesAcquisitionContext : SMC
+}
+
+class "ManipulatorAIApplicationContext" as ID00000012 <<SMC>> {
+  +TargetApplicationType : xs:string = "PickAndPlace..."
+  +TargetRobotTask : xs:string = "WorkpieceLoa..."
+  +NumberOfAxesUsed : xs:integer = "6"
+  +EndEffectorType : xs:string = "ParallelGripper"
+  +PredictionTarget : xs:string = "MotionAnomal..."
+  +InputSignalSet : xs:string = "JointTorque[..."
+  +SamplingInterval : xs:string = "PT1S"
+  +FeatureWindowLength : xs:string = "PT10S"
+}
+
+class "ManipulatorMaintenanceOperationContext" as ID00000013 <<SMC>> {
+  +RULUpdateInterval : xs:string = "PT24H"
+  +MaintenancePlanningWindow : xs:string = "Next planned..."
+  +MaintenancePriorityRule : xs:string = "Axis-3 reduc..."
+  +OperationRestrictionAfterAlert : xs:string = "Limit pallet..."
+}
+
+class "ManipulatorComponentHealthContext" as ID00000014 <<SMC>> {
+  +ManipulatorJointComponent : xs:string = "Axis3_Harmon..."
+  +JointFailureMode : xs:string = "ReducerGearT..."
+  +PalletizingDutyCycleIndex : xs:double = "0.82"
+  +PayloadUtilizationFactor : xs:double = "0.74"
+  +ReducerBacklashProgression : xs:double = "3.2"
+  +RULFeatureImportance : xs:string = "Vibration:0...."
+}
+
+class "HandlingKpiObservation" as ID00000015 <<SMC>> {
+  +PickPlaceAttemptCount : SMC
+  +SuccessfulPickPlaceCount : SMC
+  +ActualHandlingProcessingTime : SMC
+  +TargetHandlingCycleTime : SMC
+  +PlacementInspectionCount : SMC
+  +PlacementWithinToleranceCount : SMC
+  +HandlingFailureCount : SMC
+}
+
+class "ModelSupportContact" as ID00000016 <<SMC>> {
+  +NationalCode : MLP [0..1] = "KR"
+  +Language : xs:string [0..*] = "ko"
+  +CityTown : MLP [0..1] = "Example City"
+  +Company : MLP [0..1] = "ExampleManuf..."
+  +Email : SMC [0..1]
+  +Street : MLP [0..1] = "1 Example St..."
+  +Zipcode : MLP [0..1] = "00000"
+}
+
+class "TimeSeriesAcquisitionContext" as ID00000017 <<SMC>> {
+  +ExampleTimeOrigin : xs:dateTime = "2026-09-13T0..."
+  +ExampleWindowDuration : xs:string = "PT59S"
+}
+
+ID00000002 *--  ID00000003 : ""
+ID00000002 *--  ID00000004 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000005 *--  ID00000006 : ""
+ID00000005 *--  ID00000007 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000008 *--  ID00000009 : ""
+ID00000008 *--  ID0000000A : ""
+ID00000001 *--  ID00000008 : ""
+ID0000000B *--  ID0000000C : ""
+ID0000000B *--  ID0000000D : ""
+ID00000001 *--  ID0000000B : ""
+ID0000000E *--  ID0000000F : ""
+ID0000000E *--  ID00000010 : ""
+ID00000001 *--  ID0000000E : ""
+ID00000011 *--  ID00000012 : ""
+ID00000011 *--  ID00000013 : ""
+ID00000011 *--  ID00000014 : ""
+ID00000011 *--  ID00000015 : ""
+ID00000011 *--  ID00000016 : ""
+ID00000011 *--  ID00000017 : ""
+ID00000001 *--  ID00000011 : ""
+@enduml

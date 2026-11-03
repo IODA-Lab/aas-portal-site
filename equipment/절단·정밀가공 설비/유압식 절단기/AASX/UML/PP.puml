@@ -1,0 +1,99 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT ProcessParameters
+
+class "ProcessParameters" as ID00000001 <<SM>> {
+  +Processes : SMC
+}
+
+class "Processes" as ID00000002 <<SMC>> {
+  +Process__00__ : SMC [0..*]
+}
+
+class "Process__00__" as ID00000003 <<SMC>> {
+  +ProcessId : xs:string = "HC-P-001"
+  +ProcessName : xs:string = "Plate sheari..."
+  +ProcessDescription : MLP = "Process para..."
+  +PlannedProcessTime : xs:duration = "PT2H"
+  +ProductParameters : SMC
+  +ProcessParameters : SMC
+  +ResourceParameters : SMC
+  +ProcessBoM : SMC
+}
+
+class "ProductParameters" as ID00000004 <<SMC>> {
+  +WorkpieceRequirements : SMC
+  +CutPartRequirements : SMC
+}
+
+class "WorkpieceRequirements" as ID00000005 <<SMC>> {
+  +MaterialIdentification : SMC
+  +MaterialMechanicalProperties : SMC
+}
+
+class "CutPartRequirements" as ID00000006 <<SMC>> {
+  +DimensionalQualityRequirements : SMC
+  +ProductionQuantityRequirements : SMC
+}
+
+class "ProcessParameters" as ID00000007 <<SMC>> {
+  +CuttingSetupRequirements : SMC
+  +ProcessControlRequirements : SMC
+}
+
+class "CuttingSetupRequirements" as ID00000008 <<SMC>> {
+  +RecipeAndSequence : SMC
+  +CuttingGeometrySetpoints : SMC
+}
+
+class "ProcessControlRequirements" as ID00000009 <<SMC>> {
+  +LoadAndSpeedSetpoints : SMC
+  +AcceptanceLimits : SMC
+}
+
+class "ResourceParameters" as ID0000000A <<SMC>> {
+  +MachineResourceRequirements : SMC
+  +ConsumableResourceRequirements : SMC
+}
+
+class "MachineResourceRequirements" as ID0000000B <<SMC>> {
+  +CuttingPositioningResources : SMC
+  +DriveClampingResources : SMC
+  +ControlProtectionResources : SMC
+}
+
+class "ConsumableResourceRequirements" as ID0000000C <<SMC>> {
+  +FluidLubricationSupplies : SMC
+  +ReplaceableToolSupplies : SMC
+}
+
+class "ProcessBoM" as ID0000000D <<SMC>> {
+  +PlateMaterialRequirements : SMC
+}
+
+class "PlateMaterialRequirements" as ID0000000E <<SMC>> {
+  +PlateIdentification : SMC
+  +PlateAcceptanceProperties : SMC
+}
+
+ID00000004 *--  ID00000005 : ""
+ID00000004 *--  ID00000006 : ""
+ID00000003 *--  ID00000004 : ""
+ID00000007 *--  ID00000008 : ""
+ID00000007 *--  ID00000009 : ""
+ID00000003 *--  ID00000007 : ""
+ID0000000A *--  ID0000000B : ""
+ID0000000A *--  ID0000000C : ""
+ID00000003 *--  ID0000000A : ""
+ID0000000D *--  ID0000000E : ""
+ID00000003 *--  ID0000000D : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT OperationalData
+
+class "OperationalData" as ID00000001 <<SM>> {
+  +DeviceOperationSystem : SMC
+  +HeatTreatmentProcessSystem : SMC
+  +AtmosphereAndQuenchSystem : SMC
+  +ProtectionAndSafetyStateSystem : SMC
+  +ElectricalAndSafetyConditionSystem : SMC
+}
+
+class "DeviceOperationSystem" as ID00000002 <<SMC>> {
+  +OperatingStateMonitoring : SMC
+  +BatchAndHistoryMonitoring : SMC
+}
+
+class "HeatTreatmentProcessSystem" as ID00000003 <<SMC>> {
+  +TemperatureMonitoring : SMC
+  +ProcessProgressAndQualityMonitoring : SMC
+}
+
+class "AtmosphereAndQuenchSystem" as ID00000004 <<SMC>> {
+  +AtmosphereMonitoring : SMC
+  +QuenchAndChargeMonitoring : SMC
+}
+
+class "ProtectionAndSafetyStateSystem" as ID00000005 <<SMC>> {
+  +ThermalAndAtmosphereProtectionMonitoring : SMC
+  +AccessAndStopProtectionMonitoring : SMC
+}
+
+class "ElectricalAndSafetyConditionSystem" as ID00000006 <<SMC>> {
+  +PowerSupplyMonitoring : SMC
+  +AccessAndOperationSafetyMonitoring : SMC
+}
+
+ID00000001 *--  ID00000002 : ""
+ID00000001 *--  ID00000003 : ""
+ID00000001 *--  ID00000004 : ""
+ID00000001 *--  ID00000005 : ""
+ID00000001 *--  ID00000006 : ""
+@enduml

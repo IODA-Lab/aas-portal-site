@@ -1,0 +1,121 @@
+@startuml
+!theme plain
+left to right direction
+hide class circle
+hide class methods
+skinparam classAttributeIconSize 0
+' skinparam linetype polyline
+skinparam linetype ortho
+
+mainframe SMT TimeSeries
+
+class "TimeSeries" as ID00000001 <<SM>> {
+  +Metadata : SMC
+  +Segments : SMC
+}
+
+class "Metadata" as ID00000002 <<SMC>> {
+  +Name : MLP = "Batch heat t..."
+  +Description : MLP [0..1] = "Time series ..."
+  +Record : SMC
+}
+
+class "Record" as ID00000003 <<SMC>> {
+  +Time : xs:dateTime [1..*] = "2026-06-17T0..."
+  +RecordDeviceOperationSystem : SMC
+  +RecordHeatTreatmentProcessSystem : SMC
+  +RecordAtmosphereAndQuenchSystem : SMC
+  +RecordProtectionAndSafetyStateSystem : SMC
+  +RecordElectricalAndSafetyConditionSystem : SMC
+}
+
+class "RecordDeviceOperationSystem" as ID00000004 <<SMC>> {
+  +RecordOperatingStateMonitoring : SMC
+}
+
+class "RecordHeatTreatmentProcessSystem" as ID00000005 <<SMC>> {
+  +RecordTemperatureMonitoring : SMC
+}
+
+class "RecordAtmosphereAndQuenchSystem" as ID00000006 <<SMC>> {
+  +RecordAtmosphereMonitoring : SMC
+  +RecordQuenchAndChargeMonitoring : SMC
+}
+
+class "RecordProtectionAndSafetyStateSystem" as ID00000007 <<SMC>> {
+  +RecordThermalAndAtmosphereProtectionMonitoring : SMC
+  +RecordAccessAndStopProtectionMonitoring : SMC
+}
+
+class "RecordElectricalAndSafetyConditionSystem" as ID00000008 <<SMC>> {
+  +RecordPowerSupplyMonitoring : SMC
+  +RecordAccessAndOperationSafetyMonitoring : SMC
+}
+
+class "Segments" as ID00000009 <<SMC>> {
+  +ExternalSegment : SMC [0..*]
+  +LinkedSegment : SMC [0..*]
+  +InternalSegment : SMC [0..*]
+}
+
+class "ExternalSegment" as ID0000000A <<SMC>> {
+  +Name : MLP [0..1] = "Furnace hist..."
+  +Description : MLP [0..1] = "Furnace time..."
+  +RecordCount : xs:long [0..1] = "86400"
+  +StartTime : xs:string [0..1] = "2026-06-17T0..."
+  +EndTime : xs:string [0..1] = "2026-06-17T2..."
+  +Duration : xs:string [0..1] = "PT24H"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-18T0..."
+  +File : File [0..1]
+  +Blob : Blob [0..1]
+}
+
+class "LinkedSegment" as ID0000000B <<SMC>> {
+  +Name : MLP [0..1] = "Furnace hist..."
+  +Description : MLP [0..1] = "Furnace time..."
+  +RecordCount : xs:long [0..1] = "86400"
+  +StartTime : xs:string [0..1] = "2026-06-17T0..."
+  +EndTime : xs:string [0..1] = "2026-06-17T2..."
+  +Duration : xs:string [0..1] = "PT24H"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-18T0..."
+  +Endpoint : xs:string = "https://hist..."
+  +Query : xs:string = "assetId=BHF-..."
+}
+
+class "InternalSegment" as ID0000000C <<SMC>> {
+  +Name : MLP [0..1] = "Recent furna..."
+  +Description : MLP [0..1] = "Recent furna..."
+  +RecordCount : xs:long [0..1] = "1"
+  +StartTime : xs:string [0..1] = "2026-06-17T0..."
+  +EndTime : xs:string [0..1] = "2026-06-17T0..."
+  +Duration : xs:string [0..1] = "PT1S"
+  +SamplingInterval : xs:long [0..1] = "1"
+  +SamplingRate : xs:long [0..1] = "1"
+  +State : xs:string [0..1] = "completed"
+  +LastUpdate : xs:string [0..1] = "2026-06-17T0..."
+  +Records : SMC
+}
+
+class "Records" as ID0000000D <<SMC>> {
+  +Record00000 : SMC [0..*]
+}
+
+ID00000003 *--  ID00000004 : ""
+ID00000003 *--  ID00000005 : ""
+ID00000003 *--  ID00000006 : ""
+ID00000003 *--  ID00000007 : ""
+ID00000003 *--  ID00000008 : ""
+ID00000002 *--  ID00000003 : ""
+ID00000001 *--  ID00000002 : ""
+ID00000009 *--  ID0000000A : ""
+ID00000009 *--  ID0000000B : ""
+ID0000000C *--  ID0000000D : ""
+ID00000009 *--  ID0000000C : ""
+ID00000001 *--  ID00000009 : ""
+@enduml
