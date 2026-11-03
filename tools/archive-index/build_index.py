@@ -9,6 +9,8 @@ import re
 import subprocess
 import sys
 from collections import defaultdict
+from html import escape
+from itertools import groupby
 from pathlib import Path
 from urllib.parse import quote
 
@@ -17,23 +19,32 @@ AASX_NAME = re.compile(r"^[A-Z][A-Za-z0-9]*_v\d+\.\d+\.\d+(_\d{6}|_\d{8})?\.aasx
 
 README = """# 한양대 AAS Archive
 
-산업 장비 70종의 AAS 참조모델과 개발계획서, 가이던스, 시뮬레이션, 참고자료를 장비별로 모은 저장소입니다.
+중소벤처기업부 「제조데이터 표준화 사업」의 참조모델 개발 과제에서 한양대학교가 만든 산출물을 장비별로 모은 저장소입니다.
 
-## 폴더 구성
+## 과제 소개
 
-```text
-equipment/<장비군>/<장비>/
-  개발계획서/   참조모델 개발계획서
-  가이던스/     AAS 활용 가이던스
-  AASX/        AASX 모델과 UML 원본
-  시뮬레이션/   코드, 실행 안내, 영상 링크
-  참고자료/     카탈로그, 매뉴얼, 참고 링크
-tools/          여러 장비에 함께 쓰는 도구
-```
+이 사업은 중소 제조기업의 공장·기업 간 디지털 연결을 촉진하기 위해, 국제표준 AAS(Asset Administration Shell, IEC 63278)를 바탕으로 핵심 장비의 데이터 표준 참조모델과 가이던스를 개발해 제조 현장에 보급합니다. AAS는 장비 같은 제조자산의 정보를 디지털로 표현하고 관리하기 위한 표준 모델입니다.
 
-파일은 장비 폴더에만 저장합니다. 아래 표는 파일을 저장하지 않고 링크만 연결합니다.
+| 항목 | 내용 |
+|---|---|
+| 사업명 | 2026년 제조데이터 표준화 사업 |
+| 사업기간 | 2026년 5월 18일 ~ 2027년 2월 28일 |
+| 수행 체계 | 주식회사 엣지크로스(주관), 한양대학교, 주식회사 엑센솔루션 |
+| 개발 목표 | 장비 70종의 참조모델과 가이던스 |
+
+## 산출물
+
+| 산출물 | 내용 |
+|---|---|
+| 개발계획서 | 장비별 참조모델의 개발 범위와 구성을 정리한 문서 |
+| 가이던스 | 기업이 참조모델을 활용할 수 있도록 설명한 문서 |
+| AASX | AAS 파일 형식으로 만든 장비별 참조모델 |
+| 시뮬레이션 | 참조모델의 활용을 보여 주는 시뮬레이션 코드, 실행 안내, 영상 링크 |
+| 참고자료 | 작성에 참고한 카탈로그, 표준, 기술 문서 링크 |
 
 ## 장비별 자료
+
+70종 중 {registered}종의 자료가 등록되어 있으며, 나머지는 순차적으로 등록합니다. 파일은 장비 폴더에 있고 아래 표는 링크로 연결합니다.
 
 {table}
 
@@ -62,7 +73,7 @@ def equipment_stem(folder):
 
 
 def link(label, path):
-    return f"[{label}]({quote(path, safe='/')})"
+    return f'<a href="{quote(path, safe="/")}">{escape(label)}</a>'
 
 
 def file_links(files):
@@ -92,23 +103,30 @@ def real_files(files):
 
 def render(paths, authors):
     equipment = load_equipment(paths)
-    rows = ["| 장비군 | 장비 | 작성자 | 개발계획서 | 가이던스 | AASX | 시뮬레이션 | 참고자료 |", "|---|---|---|---|---|---|---|---|"]
-    for (group, name), sections in sorted(equipment.items()):
-        root = f"equipment/{group}/{name}"
-        aasx = [f for f in real_files(sections["AASX"]) if f.endswith(".aasx")]
-        rows.append("| " + " | ".join([
-            group,
-            link(name, root),
-            authors.get(name) or "-",
-            file_links(real_files(sections["개발계획서"])),
-            file_links(real_files(sections["가이던스"])),
-            file_links(aasx),
-            link("폴더", f"{root}/시뮬레이션") if real_files(sections["시뮬레이션"]) else "-",
-            link("폴더", f"{root}/참고자료") if real_files(sections["참고자료"]) else "-",
-        ]) + " |")
+    headers = ("장비군", "장비", "작성자", "개발계획서", "가이던스", "AASX", "시뮬레이션", "참고자료")
+    rows = ["<table>", "<thead><tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr></thead>", "<tbody>"]
+    # 같은 장비군은 첫 칸을 rowspan으로 병합한다. Markdown 표는 병합이 안 되어 HTML 표를 쓴다.
+    for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0]):
+        members = list(members)
+        for i, ((_, name), sections) in enumerate(members):
+            root = f"equipment/{group}/{name}"
+            aasx = [f for f in real_files(sections["AASX"]) if f.endswith(".aasx")]
+            cells = [
+                link(name, root),
+                escape(authors.get(name) or "-"),
+                file_links(real_files(sections["개발계획서"])),
+                file_links(real_files(sections["가이던스"])),
+                file_links(aasx),
+                link("폴더", f"{root}/시뮬레이션") if real_files(sections["시뮬레이션"]) else "-",
+                link("폴더", f"{root}/참고자료") if real_files(sections["참고자료"]) else "-",
+            ]
+            first = f'<td rowspan="{len(members)}">{escape(group)}</td>' if i == 0 else ""
+            rows.append("<tr>" + first + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
+    rows += ["</tbody>", "</table>"]
+    registered = sum(1 for s in equipment.values() if any(real_files(f) for f in s.values()))
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table="\n".join(rows), tools="\n".join(tools))
+    return README.format(table="\n".join(rows), tools="\n".join(tools), registered=registered)
 
 
 def check(paths):
