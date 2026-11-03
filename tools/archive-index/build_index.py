@@ -46,6 +46,10 @@ README = """# 한양대 AAS Archive
 
 {table}
 
+## 유형별 자료
+
+{views}
+
 ## 도구
 
 {tools}
@@ -79,21 +83,44 @@ def real_files(files):
     return [f for f in files if not f.endswith(".gitkeep")]
 
 
+def html_table(headers, groups):
+    """groups는 (장비군, [행의 칸 목록]) 목록이다. 같은 장비군은 첫 칸을 rowspan으로 병합한다."""
+    rows = ["<table>", "<thead><tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr></thead>", "<tbody>"]
+    for group, members in groups:
+        for i, cells in enumerate(members):
+            first = f'<td rowspan="{len(members)}">{escape(group)}</td>' if i == 0 else ""
+            rows.append("<tr>" + first + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
+    return "\n".join(rows + ["</tbody>", "</table>"])
+
+
+def render_view(equipment, section):
+    """한 자료 유형의 접기 표를 만든다. 해당 자료가 있는 장비만 넣는다."""
+    groups = []
+    for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0]):
+        rows = []
+        for (_, name), sections in members:
+            files = [f for f in real_files(sections[section]) if section != "AASX" or f.endswith(".aasx")]
+            if files:
+                links = "<br>".join(link(Path(f).name, f) for f in sorted(files))
+                rows.append([link(name, f"equipment/{group}/{name}"), links])
+        if rows:
+            groups.append((group, rows))
+    count = sum(len(rows) for _, rows in groups)
+    table = html_table(("장비군", "장비", "자료"), groups)
+    return f"<details>\n<summary>{section} ({count}종)</summary>\n\n{table}\n\n</details>"
+
+
 def render(paths, authors):
     equipment = load_equipment(paths)
-    headers = ("장비군", "장비", "작성자")
-    rows =["<table>", "<thead><tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr></thead>", "<tbody>"]
-    # 같은 장비군은 첫 칸을 rowspan으로 병합한다. Markdown 표는 병합이 안 되어 HTML 표를 쓴다.
-    for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0]):
-        members = list(members)
-        for i, ((_, name), _sections) in enumerate(members):
-            cells = [link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-")]
-            first =f'<td rowspan="{len(members)}">{escape(group)}</td>' if i == 0 else ""
-            rows.append("<tr>" + first + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
-    rows += ["</tbody>", "</table>"]
+    # Markdown 표는 셀 병합이 안 되어 HTML 표를 쓴다.
+    groups = [
+        (group, [[link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-")] for (_, name), _s in members])
+        for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0])
+    ]
+    views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table="\n".join(rows), tools="\n".join(tools))
+    return README.format(table=html_table(("장비군", "장비", "작성자"), groups), views=views, tools="\n".join(tools))
 
 
 def check(paths):
