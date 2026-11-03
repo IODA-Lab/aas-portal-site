@@ -44,21 +44,11 @@ README = """# 한양대 AAS Archive
 
 ## 장비별 자료
 
-70종 중 {registered}종의 자료가 등록되어 있으며, 나머지는 순차적으로 등록합니다. 파일은 장비 폴더에 있고 아래 표는 링크로 연결합니다.
-
 {table}
 
 ## 도구
 
 {tools}
-
-## 자료 추가
-
-1. 저장소를 클론하고 자기 장비 폴더의 해당 폴더에 파일을 넣습니다.
-2. 파일 이름은 `<장비명>_개발계획서`, `<장비명>_가이던스` 형식으로 맞춥니다. 장비명은 폴더 이름에서 공백, 가운뎃점, 괄호를 뺀 것입니다.
-3. 커밋하고 올립니다. 이 표는 자동으로 갱신되므로 README를 고치지 않습니다.
-
-zip과 영상 파일은 올리지 않습니다. 코드는 풀어서 올리고, 영상은 YouTube 링크를 `시뮬레이션/링크.md`에 적습니다. 검토 기록은 올리지 않습니다.
 """
 
 TOOLS = {
@@ -76,18 +66,6 @@ def link(label, path):
     return f'<a href="{quote(path, safe="/")}">{escape(label)}</a>'
 
 
-def file_links(files):
-    """파일 링크를 확장자 이름으로 만든다. 같은 확장자가 여럿이면 번호를 붙인다."""
-    by_ext = defaultdict(list)
-    for f in sorted(files):
-        by_ext[Path(f).suffix.lstrip(".").upper()].append(f)
-    out = []
-    for ext, items in by_ext.items():
-        for i, f in enumerate(items, 1):
-            out.append(link(ext if len(items) == 1 else f"{ext} {i}", f))
-    return " · ".join(out) or "-"
-
-
 def load_equipment(paths):
     equipment = defaultdict(lambda: defaultdict(list))
     for p in paths:
@@ -103,30 +81,19 @@ def real_files(files):
 
 def render(paths, authors):
     equipment = load_equipment(paths)
-    headers = ("장비군", "장비", "작성자", "개발계획서", "가이던스", "AASX", "시뮬레이션", "참고자료")
-    rows = ["<table>", "<thead><tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr></thead>", "<tbody>"]
+    headers = ("장비군", "장비", "작성자")
+    rows =["<table>", "<thead><tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr></thead>", "<tbody>"]
     # 같은 장비군은 첫 칸을 rowspan으로 병합한다. Markdown 표는 병합이 안 되어 HTML 표를 쓴다.
     for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0]):
         members = list(members)
-        for i, ((_, name), sections) in enumerate(members):
-            root = f"equipment/{group}/{name}"
-            aasx = [f for f in real_files(sections["AASX"]) if f.endswith(".aasx")]
-            cells = [
-                link(name, root),
-                escape(authors.get(name) or "-"),
-                file_links(real_files(sections["개발계획서"])),
-                file_links(real_files(sections["가이던스"])),
-                file_links(aasx),
-                link("폴더", f"{root}/시뮬레이션") if real_files(sections["시뮬레이션"]) else "-",
-                link("폴더", f"{root}/참고자료") if real_files(sections["참고자료"]) else "-",
-            ]
-            first = f'<td rowspan="{len(members)}">{escape(group)}</td>' if i == 0 else ""
+        for i, ((_, name), _sections) in enumerate(members):
+            cells = [link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-")]
+            first =f'<td rowspan="{len(members)}">{escape(group)}</td>' if i == 0 else ""
             rows.append("<tr>" + first + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
     rows += ["</tbody>", "</table>"]
-    registered = sum(1 for s in equipment.values() if any(real_files(f) for f in s.values()))
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table="\n".join(rows), tools="\n".join(tools), registered=registered)
+    return README.format(table="\n".join(rows), tools="\n".join(tools))
 
 
 def check(paths):
