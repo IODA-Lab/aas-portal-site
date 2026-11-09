@@ -189,15 +189,19 @@ def rows(parent, depth, concepts, tally):
             hidden = group[1:]
             skipped = sum(count(x) for x in hidden)
             tally["hidden"] += skipped
+            tally["repeats"].append((signature(e)[1], len(group)))
             out.append(f"| {'&ensp;' * depth * 2}<sub>⋯ 같은 구성 {len(hidden)}개 더<br>(항목 {skipped}개 생략)</sub> | | | |")
     return out
 
 
 def submodel_section(sm, concepts):
-    tally = {"shown": 0, "hidden": 0}
+    tally = {"shown": 0, "hidden": 0, "repeats": []}
     body = rows(sm, 0, concepts, tally)
-    total = sum(count(c) for c in children(sm))
-    assert tally["shown"] + tally["hidden"] == total, sm.findtext("idShort")
+    assert tally["shown"] + tally["hidden"] == sum(count(c) for c in children(sm)), sm.findtext("idShort")
+    records = sum(n for stem, n in tally["repeats"] if stem.lower().startswith("record"))
+    others = sum(n - 1 for stem, n in tally["repeats"] if not stem.lower().startswith("record"))
+    notes = ([f"예시 기록 {records}건"] if records else []) + ([f"같은 구성 {others}개 생략"] if others else [])
+    total = f"{tally['shown']} ({', '.join(notes)})" if notes else str(tally["shown"])
     name = sm.findtext("idShort")
     purpose = PURPOSE.get(name) or clean(pick(sm.find("description")), 60)
     head = "| 항목 | 설명 · 의미 ID | 형식 | 예시값 |\n|---|---|---|---|"
@@ -255,7 +259,7 @@ def page(name, paths):
     if len(aasx) == 1:
         submodels, concepts = load(ROOT / aasx[0])
         sections = [submodel_section(sm, concepts) for sm in submodels]
-        parts.append("## 서브모델\n\n| 서브모델 | 용도 | 항목 수 |\n|---|---|--:|\n" + "\n".join(s[0] for s in sections))
+        parts.append("## 서브모델\n\n| 서브모델 | 용도 | 항목 수 (반복 제외) |\n|---|---|--:|\n" + "\n".join(s[0] for s in sections))
         parts.append(
             "## 프로퍼티\n\n서브모델 이름을 누르면 표가 펼쳐집니다. "
             "**표의 예시값은 참조모델 설명을 위한 값이며 실제 장비의 측정값이 아닙니다.** "
