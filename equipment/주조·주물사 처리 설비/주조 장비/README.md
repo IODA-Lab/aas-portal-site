@@ -12,15 +12,15 @@
 
 ## 서브모델
 
-| 서브모델 | 용도 | 항목 수 (반복 제외) |
-|---|---|--:|
-| Nameplate | 장비를 식별하는 명판 정보 | 30 |
-| HandoverDocumentation | 납품 시 함께 전달하는 문서 목록 | 25 (같은 구성 4개 생략) |
-| TechnicalData | 제조사가 제시하는 기술 사양 | 96 |
-| OperationalData | 운전 중 변하는 장비 상태 값 | 52 |
-| TimeSeries | 상태 값의 시간별 기록 | 90 (예시 기록 60건) |
-| ProcessParameters | 제품·공정별 설정값 | 41 |
-| PredictiveMaintenance | 예지정비 모델과 결과 | 31 (같은 구성 6개 생략) |
+| 서브모델 | 용도 |
+|---|---|
+| Nameplate | 장비를 식별하는 명판 정보 |
+| HandoverDocumentation | 납품 시 함께 전달하는 문서 목록 |
+| TechnicalData | 제조사가 제시하는 기술 사양 |
+| OperationalData | 운전 중 변하는 장비 상태 값 |
+| TimeSeries | 상태 값의 시간별 기록 |
+| ProcessParameters | 제품·공정별 설정값 |
+| PredictiveMaintenance | 예지정비 모델과 결과 |
 
 ## 프로퍼티
 
@@ -65,7 +65,7 @@
 </details>
 
 <details>
-<summary><b>HandoverDocumentation</b> · 납품 시 함께 전달하는 문서 목록 · 항목 25 (같은 구성 4개 생략)개</summary>
+<summary><b>HandoverDocumentation</b> · 납품 시 함께 전달하는 문서 목록 · 항목 25개 (같은 구성 4개 생략)</summary>
 
 | 항목 | 설명 · 의미 ID | 형식 | 예시값 |
 |---|---|---|---|
@@ -263,7 +263,7 @@
 </details>
 
 <details>
-<summary><b>TimeSeries</b> · 상태 값의 시간별 기록 · 항목 90 (예시 기록 60건)개</summary>
+<summary><b>TimeSeries</b> · 상태 값의 시간별 기록 · 항목 90개 (예시 기록 60건)</summary>
 
 | 항목 | 설명 · 의미 ID | 형식 | 예시값 |
 |---|---|---|---|
@@ -411,7 +411,7 @@
 </details>
 
 <details>
-<summary><b>PredictiveMaintenance</b> · 예지정비 모델과 결과 · 항목 31 (같은 구성 6개 생략)개</summary>
+<summary><b>PredictiveMaintenance</b> · 예지정비 모델과 결과 · 항목 31개 (같은 구성 6개 생략)</summary>
 
 | 항목 | 설명 · 의미 ID | 형식 | 예시값 |
 |---|---|---|---|

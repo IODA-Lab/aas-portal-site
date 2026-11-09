@@ -201,15 +201,15 @@ def submodel_section(sm, concepts):
     records = sum(n for stem, n in tally["repeats"] if stem.lower().startswith("record"))
     others = sum(n - 1 for stem, n in tally["repeats"] if not stem.lower().startswith("record"))
     notes = ([f"예시 기록 {records}건"] if records else []) + ([f"같은 구성 {others}개 생략"] if others else [])
-    total = f"{tally['shown']} ({', '.join(notes)})" if notes else str(tally["shown"])
+    total = f"{tally['shown']}개 ({', '.join(notes)})" if notes else f"{tally['shown']}개"
     name = sm.findtext("idShort")
     purpose = PURPOSE.get(name) or clean(pick(sm.find("description")), 60)
     head = "| 항목 | 설명 · 의미 ID | 형식 | 예시값 |\n|---|---|---|---|"
     block = (
-        f"<details>\n<summary><b>{escape(name)}</b> · {purpose} · 항목 {total}개</summary>\n\n"
+        f"<details>\n<summary><b>{escape(name)}</b> · {purpose} · 항목 {total}</summary>\n\n"
         f"{head}\n" + "\n".join(body) + "\n\n</details>"
     )
-    return f"| {escape(name)} | {purpose} | {total} |", block
+    return f"| {escape(name)} | {purpose} |", block
 
 
 def tracked():
@@ -259,7 +259,7 @@ def page(name, paths):
     if len(aasx) == 1:
         submodels, concepts = load(ROOT / aasx[0])
         sections = [submodel_section(sm, concepts) for sm in submodels]
-        parts.append("## 서브모델\n\n| 서브모델 | 용도 | 항목 수 (반복 제외) |\n|---|---|--:|\n" + "\n".join(s[0] for s in sections))
+        parts.append("## 서브모델\n\n| 서브모델 | 용도 |\n|---|---|\n" + "\n".join(s[0] for s in sections))
         parts.append(
             "## 프로퍼티\n\n서브모델 이름을 누르면 표가 펼쳐집니다. "
             "**표의 예시값은 참조모델 설명을 위한 값이며 실제 장비의 측정값이 아닙니다.** "
