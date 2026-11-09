@@ -289,12 +289,16 @@
 </details>
 
 <details>
-<summary>시뮬레이션 (2종)</summary>
+<summary>시뮬레이션 (6종)</summary>
 
 <table>
 <thead><tr><th>장비군</th><th>장비</th><th>자료</th></tr></thead>
 <tbody>
+<tr><td rowspan="1">건조·제습 설비</td><td><a href="equipment/%EA%B1%B4%EC%A1%B0%C2%B7%EC%A0%9C%EC%8A%B5%20%EC%84%A4%EB%B9%84/%EA%B1%B4%EC%A1%B0%EA%B8%B0">건조기</a></td><td><sub><a href="equipment/%EA%B1%B4%EC%A1%B0%C2%B7%EC%A0%9C%EC%8A%B5%20%EC%84%A4%EB%B9%84/%EA%B1%B4%EC%A1%B0%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/README.md">README.md</a></sub></td></tr>
+<tr><td rowspan="1">분리·여과 설비</td><td><a href="equipment/%EB%B6%84%EB%A6%AC%C2%B7%EC%97%AC%EA%B3%BC%20%EC%84%A4%EB%B9%84/%EC%9B%90%EC%8B%AC%EB%B6%84%EB%A6%AC%EA%B8%B0">원심분리기</a></td><td><sub><a href="equipment/%EB%B6%84%EB%A6%AC%C2%B7%EC%97%AC%EA%B3%BC%20%EC%84%A4%EB%B9%84/%EC%9B%90%EC%8B%AC%EB%B6%84%EB%A6%AC%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/README.md">README.md</a></sub></td></tr>
 <tr><td rowspan="1">사출성형 설비</td><td><a href="equipment/%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%20%EC%84%A4%EB%B9%84/PET%20%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%EA%B8%B0">PET 사출성형기</a></td><td><sub><a href="equipment/%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%20%EC%84%A4%EB%B9%84/PET%20%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/PET_Simio_PostgreSQL_Team_20261028_v2.zip">PET_Simio_PostgreSQL_Team_20261028_v2.zip</a></sub><br><sub><a href="equipment/%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%20%EC%84%A4%EB%B9%84/PET%20%EC%82%AC%EC%B6%9C%EC%84%B1%ED%98%95%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/PET_Simio_PostgreSQL_%EC%8B%A4%ED%96%89%EA%B0%80%EC%9D%B4%EB%93%9C.pdf">PET_Simio_PostgreSQL_실행가이드.pdf</a></sub></td></tr>
+<tr><td rowspan="1">섬유가공 설비</td><td><a href="equipment/%EC%84%AC%EC%9C%A0%EA%B0%80%EA%B3%B5%20%EC%84%A4%EB%B9%84/%EB%82%A0%EC%97%BC%EA%B8%B0">날염기</a></td><td><sub><a href="equipment/%EC%84%AC%EC%9C%A0%EA%B0%80%EA%B3%B5%20%EC%84%A4%EB%B9%84/%EB%82%A0%EC%97%BC%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/README.md">README.md</a></sub></td></tr>
+<tr><td rowspan="1">염색 설비</td><td><a href="equipment/%EC%97%BC%EC%83%89%20%EC%84%A4%EB%B9%84/%EC%83%81%EC%95%95%EC%97%BC%EC%83%89%EA%B8%B0">상압염색기</a></td><td><sub><a href="equipment/%EC%97%BC%EC%83%89%20%EC%84%A4%EB%B9%84/%EC%83%81%EC%95%95%EC%97%BC%EC%83%89%EA%B8%B0/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/README.md">README.md</a></sub></td></tr>
 <tr><td rowspan="1">주조·주물사 처리 설비</td><td><a href="equipment/%EC%A3%BC%EC%A1%B0%C2%B7%EC%A3%BC%EB%AC%BC%EC%82%AC%20%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EC%A3%BC%EC%A1%B0%20%EC%9E%A5%EB%B9%84">주조 장비</a></td><td><sub><a href="equipment/%EC%A3%BC%EC%A1%B0%C2%B7%EC%A3%BC%EB%AC%BC%EC%82%AC%20%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EC%A3%BC%EC%A1%B0%20%EC%9E%A5%EB%B9%84/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/%EB%A7%81%ED%81%AC.md">링크.md</a></sub><br><sub><a href="equipment/%EC%A3%BC%EC%A1%B0%C2%B7%EC%A3%BC%EB%AC%BC%EC%82%AC%20%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EC%A3%BC%EC%A1%B0%20%EC%9E%A5%EB%B9%84/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/%EC%A3%BC%EC%A1%B0_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_3D_%EB%85%B9%ED%99%94.mp4">주조_대시보드_3D_녹화.mp4</a></sub></td></tr>
 </tbody>
 </table>
