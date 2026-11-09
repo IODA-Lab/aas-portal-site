@@ -1,0 +1,35 @@
+name: 장비 문의
+description: 장비별 참조모델, 가이던스, 시뮬레이션에 대해 질문합니다.
+title: "[문의] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이 게시판의 글은 누구나 볼 수 있습니다. 전화번호, 메일 주소, 회사 내부 자료 같은 정보는 적지 말아 주세요.
+  - type: input
+    id: equipment
+    attributes:
+      label: 장비
+      description: README의 장비별 자료 표에 있는 장비 이름
+      placeholder: 예) 고속밀링기
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: 문의 대상
+      options:
+        - 개발계획서
+        - 가이던스
+        - AASX
+        - 시뮬레이션
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 문의 내용
+      description: 파일 이름과 서브모델·항목 이름을 함께 적어 주시면 답변이 빨라집니다.
+    validations:
+      required: true

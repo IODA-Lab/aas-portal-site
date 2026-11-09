@@ -12,8 +12,9 @@ from collections import defaultdict
 from html import escape
 from itertools import groupby
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
+REPO = "https://github.com/IODA-Lab/aas-portal-site"
 SECTIONS = ("개발계획서", "가이던스", "AASX", "시뮬레이션", "참고자료")
 AASX_NAME = re.compile(r"^[A-Z][A-Za-z0-9]*_v\d+\.\d+\.\d+(_\d{6}|_\d{8})?\.aasx$")
 
@@ -44,6 +45,8 @@ README = """# 한양대 AAS Archive
 
 ## 장비별 자료
 
+장비에 대한 질문은 표의 문의 링크로 남겨 주세요. GitHub 계정이 필요하며, 글은 누구나 볼 수 있습니다.
+
 {table}
 
 ## 유형별 자료
@@ -68,6 +71,12 @@ def equipment_stem(folder):
 
 def link(label, path):
     return f'<a href="{quote(path, safe="/")}">{escape(label)}</a>'
+
+
+def inquiry_link(name):
+    """장비명이 미리 채워진 문의 양식 링크를 만든다."""
+    query = urlencode({"template": "equipment-question.yml", "title": f"[문의] {name}", "equipment": name})
+    return f'<a href="{escape(f"{REPO}/issues/new?{query}")}">문의</a>'
 
 
 def load_equipment(paths):
@@ -115,13 +124,13 @@ def render(paths, authors):
     equipment = load_equipment(paths)
     # Markdown 표는 셀 병합이 안 되어 HTML 표를 쓴다.
     groups = [
-        (group, [[link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-")] for (_, name), _s in members])
+        (group, [[link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-"), inquiry_link(name)] for (_, name), _s in members])
         for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0])
     ]
     views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
+    return README.format(table=html_table(("장비군", "장비", "담당자", "문의"), groups), views=views, tools="\n".join(tools))
 
 
 def check(paths):
