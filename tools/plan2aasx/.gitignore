@@ -1,0 +1,15 @@
+# 빌드 산출물 (exe는 GitHub Releases에 올림)
+build/
+dist/
+*.exe
+__pycache__/
+*.pyc
+
+# 변환 결과
+out/
+*_AAS/
+
+# 입력 계획서와 중간 매핑표
+*.hwp
+*.hwpx
+mapping*.json

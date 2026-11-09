@@ -1,0 +1,76 @@
+{
+  "_comment": "표준 IDTA 서브모델의 실제 submodel semanticId. 공식 IDTA submodel-templates 템플릿 aasx에서 basyx로 추출(날조 아님). 생성기는 표준 서브모델에 이 값을 부여하고, 목록에 없는(자체 제작) 서브모델만 smart-factory.kr IRI로 자체정의한다. 이것이 '가장 흔한 오류'(표준 서브모델을 자체정의) 방지책.",
+  "_source": "번들: tools/plan2aasx/templates/ (원본 IDTA submodel-templates published)",
+  "standard_submodels": {
+    "DigitalNameplate": {
+      "aliases": [
+        "Digital Nameplate",
+        "Nameplate"
+      ],
+      "idta": "02006-3-0-1",
+      "sm_idShort": "Nameplate",
+      "_note_idShort": "IDTA 02006-3-0-1 공식 Submodel idShort는 'Nameplate'(선제검토 #62, 2026-10-27). 예전 'DigitalNameplate'는 KOSMO 필수명 추정으로 바꿨던 값이라 원본으로 복원",
+      "submodel_semanticId": "https://admin-shell.io/idta/nameplate/3/0/Nameplate",
+      "template_path": "templates/DigitalNameplate.aasx"
+    },
+    "HandoverDocumentation": {
+      "aliases": [
+        "Handover Documentation"
+      ],
+      "idta": "02004-2-0-1",
+      "sm_idShort": "HandoverDocumentation",
+      "submodel_semanticId": "0173-1#01-AHF578#003",
+      "template_path": "templates/HandoverDocumentation.aasx"
+    },
+    "TechnicalData": {
+      "aliases": [
+        "Technical Data",
+        "Generic Frame for Technical Data"
+      ],
+      "idta": "02003-2-0-1",
+      "sm_idShort": "TechnicalData",
+      "submodel_semanticId": "0173-1#01-AHX837#002",
+      "template_path": "templates/TechnicalData.aasx"
+    },
+    "FunctionalSafety": {
+      "aliases": [
+        "Functional Safety"
+      ],
+      "idta": "02014-1-0-1",
+      "sm_idShort": "FunctionalSafety",
+      "submodel_semanticId": "https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety",
+      "template_path": "templates/FunctionalSafety.aasx"
+    },
+    "PredictiveMaintenance": {
+      "aliases": [
+        "Predictive Maintenance"
+      ],
+      "idta": "02048",
+      "sm_idShort": "PredictiveMaintenance",
+      "submodel_semanticId": "https://admin-shell.io/idta/SubmodelTemplate/PredictiveMaintenance/1/0",
+      "template_path": "templates/PredictiveMaintenance.aasx"
+    },
+    "TimeSeriesData": {
+      "aliases": [
+        "Time Series Data",
+        "TimeSeries"
+      ],
+      "idta": "02008-1-1-1",
+      "sm_idShort": "TimeSeries",
+      "submodel_semanticId": "https://admin-shell.io/idta/TimeSeries/1/1",
+      "template_path": "templates/TimeSeriesData.aasx"
+    },
+    "ProcessParametersType": {
+      "aliases": [
+        "Process Parameters Type",
+        "ProcessParameters",
+        "Process Parameters"
+      ],
+      "idta": "02031-1",
+      "sm_idShort": "ProcessParameters",
+      "submodel_semanticId": "https://admin-shell-io/idta/SubmodelTemplate/ProcessParameters/1/0",
+      "template_path": "templates/ProcessParametersType.aasx",
+      "_note": "IDTA 02031-1 V1.0 공식 템플릿·PDF 표2의 기재값(admin-shell-io)을 그대로 사용. 2026-09-15에 오타로 보고 admin-shell.io로 교정했으나, 10월 선제검토(EQ33·EQ36)가 공식 기재값이므로 오타로 판정하지 않는다고 확인해 원본으로 복원(2026-10-27)"
+    }
+  }
+}
