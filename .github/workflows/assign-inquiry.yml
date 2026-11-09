@@ -1,0 +1,23 @@
+name: Assign equipment inquiry
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            tools/archive-index/
+          sparse-checkout-cone-mode: false
+      - run: python3 tools/archive-index/assign_inquiry.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
