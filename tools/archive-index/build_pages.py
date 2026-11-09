@@ -233,6 +233,23 @@ def video_block(name):
     return ""
 
 
+def document_links(files, base):
+    """PDF가 있으면 열람 링크를 앞세우고, 원본은 내려받기 링크로 둔다."""
+    href = lambda p: quote(p[len(base) + 1:])
+    pdfs = {p.rsplit(".", 1)[0]: p for p in files if p.lower().endswith(".pdf")}
+    cells = []
+    for p in files:
+        stem = p.rsplit(".", 1)[0]
+        if p.lower().endswith(".pdf"):
+            if not any(q != p and q.rsplit(".", 1)[0] == stem for q in files):
+                cells.append(f"[열람]({href(p)})")
+        elif stem in pdfs:
+            cells.append(f"[열람]({href(pdfs[stem])}) · [원본 내려받기]({href(p)})")
+        else:
+            cells.append(f'[{escape(p.rsplit("/", 1)[1])}]({href(p)})')
+    return " · ".join(cells) or "준비 중"
+
+
 def page(name, paths):
     folders = sorted({"/".join(p.split("/")[:3]) for p in paths if p.split("/")[:1] == ["equipment"] and len(p.split("/")) > 3 and p.split("/")[2] == name})
     assert len(folders) == 1, name
@@ -245,8 +262,7 @@ def page(name, paths):
         if section == "AASX":
             files = [p for p in files if p.endswith(".aasx")]
             aasx = files
-        cell = " · ".join(f'[{escape(p.rsplit("/", 1)[1])}]({quote(p[len(base) + 1:])})' for p in files) or "준비 중"
-        links.append(f"| {section} | {cell} |")
+        links.append(f"| {section} | {document_links(files, base)} |")
 
     parts = [
         f"# {escape(name)}",
@@ -255,7 +271,7 @@ def page(name, paths):
     video = video_block(name)
     if video:
         parts.append(video)
-    parts.append("## 자료\n\n| 구분 | 파일 |\n|---|---|\n" + "\n".join(links))
+    parts.append("## 자료\n\nPDF는 내려받지 않고 GitHub에서 바로 볼 수 있습니다.\n\n| 구분 | 보기 |\n|---|---|\n" + "\n".join(links))
     if len(aasx) == 1:
         submodels, concepts = load(ROOT / aasx[0])
         sections = [submodel_section(sm, concepts) for sm in submodels]
