@@ -233,7 +233,7 @@
 </details>
 
 <details>
-<summary>AASX (47종)</summary>
+<summary>AASX (48종)</summary>
 
 <table>
 <thead><tr><th>장비군</th><th>장비</th><th>자료</th></tr></thead>
@@ -244,6 +244,7 @@
 <tr><td rowspan="1">교정 설비</td><td><a href="equipment/%EA%B5%90%EC%A0%95%20%EC%84%A4%EB%B9%84/%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%B3%90">스트레쳐</a></td><td><sub><a href="equipment/%EA%B5%90%EC%A0%95%20%EC%84%A4%EB%B9%84/%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%B3%90/AASX/Stretcher_v0.0.3.aasx">Stretcher_v0.0.3.aasx</a></sub></td></tr>
 <tr><td rowspan="2">금속열처리 설비</td><td><a href="equipment/%EA%B8%88%EC%86%8D%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EA%B3%A0%EC%A3%BC%ED%8C%8C%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84">고주파열처리 설비</a></td><td><sub><a href="equipment/%EA%B8%88%EC%86%8D%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EA%B3%A0%EC%A3%BC%ED%8C%8C%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/AASX/InductionHardeningMachine_v0.0.1_260930.aasx">InductionHardeningMachine_v0.0.1_260930.aasx</a></sub></td></tr>
 <tr><td><a href="equipment/%EA%B8%88%EC%86%8D%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EB%B0%B0%EC%B9%98%ED%98%95%EC%97%B4%EC%B2%98%EB%A6%AC%EB%A1%9C">배치형열처리로</a></td><td><sub><a href="equipment/%EA%B8%88%EC%86%8D%EC%97%B4%EC%B2%98%EB%A6%AC%20%EC%84%A4%EB%B9%84/%EB%B0%B0%EC%B9%98%ED%98%95%EC%97%B4%EC%B2%98%EB%A6%AC%EB%A1%9C/AASX/BatchHeatTreatmentFurnace_v0.0.1_260930.aasx">BatchHeatTreatmentFurnace_v0.0.1_260930.aasx</a></sub></td></tr>
+<tr><td rowspan="1">농축·승화 설비</td><td><a href="equipment/%EB%86%8D%EC%B6%95%C2%B7%EC%8A%B9%ED%99%94%20%EC%84%A4%EB%B9%84/%EC%A6%9D%EB%A5%98%C2%B7%EB%86%8D%EC%B6%95%EA%B8%B0">증류·농축기</a></td><td><sub><a href="equipment/%EB%86%8D%EC%B6%95%C2%B7%EC%8A%B9%ED%99%94%20%EC%84%A4%EB%B9%84/%EC%A6%9D%EB%A5%98%C2%B7%EB%86%8D%EC%B6%95%EA%B8%B0/AASX/DistillationConcentrator_V0.0.1.aasx">DistillationConcentrator_V0.0.1.aasx</a></sub></td></tr>
 <tr><td rowspan="1">도금 설비</td><td><a href="equipment/%EB%8F%84%EA%B8%88%20%EC%84%A4%EB%B9%84/%EC%88%98%EC%A7%81%EC%A0%84%EA%B8%B0%EB%8F%99%EB%8F%84%EA%B8%88">수직전기동도금</a></td><td><sub><a href="equipment/%EB%8F%84%EA%B8%88%20%EC%84%A4%EB%B9%84/%EC%88%98%EC%A7%81%EC%A0%84%EA%B8%B0%EB%8F%99%EB%8F%84%EA%B8%88/AASX/Vertical_Copper_Electroplating_v0.0.1.aasx">Vertical_Copper_Electroplating_v0.0.1.aasx</a></sub></td></tr>
 <tr><td rowspan="5">로봇·자동화 설비</td><td><a href="equipment/%EB%A1%9C%EB%B4%87%C2%B7%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EB%B9%84/FPD%20%EB%B0%98%EC%86%A1%20%EB%A1%9C%EB%B4%87">FPD 반송 로봇</a></td><td><sub><a href="equipment/%EB%A1%9C%EB%B4%87%C2%B7%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EB%B9%84/FPD%20%EB%B0%98%EC%86%A1%20%EB%A1%9C%EB%B4%87/AASX/FPDTransferRobot_v0.0.1_260930.aasx">FPDTransferRobot_v0.0.1_260930.aasx</a></sub></td></tr>
 <tr><td><a href="equipment/%EB%A1%9C%EB%B4%87%C2%B7%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EB%B9%84/%EB%A7%A4%EB%8B%88%ED%93%B0%EB%A0%88%EC%9D%B4%ED%84%B0">매니퓰레이터</a></td><td><sub><a href="equipment/%EB%A1%9C%EB%B4%87%C2%B7%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EB%B9%84/%EB%A7%A4%EB%8B%88%ED%93%B0%EB%A0%88%EC%9D%B4%ED%84%B0/AASX/IndustrialHandlingManipulator_v0.0.1_260930.aasx">IndustrialHandlingManipulator_v0.0.1_260930.aasx</a></sub></td></tr>
