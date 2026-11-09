@@ -151,7 +151,7 @@ def render(paths, authors):
         (group, [[link(name, f"equipment/{group}/{name}"), inquiry_link(name, authors[name]) if authors.get(name) else "-"] for (_, name), _s in members])
         for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0])
     ]
-    views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
+    views = "\n\n".join(render_view(equipment, s) for s in SECTIONS if s != "시뮬레이션")
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
     return README.format(gallery=render_gallery(), table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
