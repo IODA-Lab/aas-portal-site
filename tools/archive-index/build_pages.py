@@ -91,6 +91,11 @@ def clean(text, limit):
     return escape(text).replace("|", "&#124;")
 
 
+def breakable(text):
+    """긴 값이 표 폭을 넓히지 않도록 줄바꿈 가능 지점을 넣는다. 복사한 값에는 영향이 없다."""
+    return re.sub(r"(?<!&)([/_#.:-])(?=\S)", r"\1<wbr>", text)
+
+
 def short_id(sid):
     for long, short in PREFIXES:
         if sid.startswith(long):
@@ -125,10 +130,10 @@ def row(e, depth, concepts):
     spec = concept.find(".//dataSpecificationIec61360") if concept is not None else None
     described = pick(e.find("description")) or (pick(spec.find("definition")) if spec is not None else "")
     unit = (spec.findtext("unit") or "") if spec is not None else ""
-    name = escape(e.findtext("idShort") or "(항목)")
+    name = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "<wbr>", escape(e.findtext("idShort") or "(항목)"))
     name = f"**{name}**" if is_group(e) else name
-    sid = f"<br><sub>{clean(short_id(semantic(e)), 70)}</sub>" if semantic(e) else ""
-    return f"| {'&emsp;' * depth}{name} | {clean(described, 140)}{sid} | {form(e)} | {clean(unit, 20)} | {clean(value(e), 60)} |"
+    sid = f"<br><sub>{breakable(clean(short_id(semantic(e)), 70))}</sub>" if semantic(e) else ""
+    return f"| {'&emsp;' * depth}{name} | {clean(described, 140)}{sid} | {form(e)} | {clean(unit, 20)} | {breakable(clean(value(e), 60))} |"
 
 
 def signature(e):
