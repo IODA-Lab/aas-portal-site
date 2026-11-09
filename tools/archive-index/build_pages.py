@@ -127,8 +127,8 @@ def row(e, depth, concepts):
     unit = (spec.findtext("unit") or "") if spec is not None else ""
     name = escape(e.findtext("idShort") or "(항목)")
     name = f"**{name}**" if is_group(e) else name
-    sid = f"<sub>{clean(short_id(semantic(e)), 70)}</sub>" if semantic(e) else ""
-    return f"| {'&emsp;' * depth}{name} | {clean(described, 140)} | {form(e)} | {clean(unit, 20)} | {clean(value(e), 60)} | {sid} |"
+    sid = f"<br><sub>{clean(short_id(semantic(e)), 70)}</sub>" if semantic(e) else ""
+    return f"| {'&emsp;' * depth}{name} | {clean(described, 140)}{sid} | {form(e)} | {clean(unit, 20)} | {clean(value(e), 60)} |"
 
 
 def signature(e):
@@ -158,7 +158,7 @@ def rows(parent, depth, concepts, tally):
             hidden = group[1:]
             skipped = sum(count(x) for x in hidden)
             tally["hidden"] += skipped
-            out.append(f"| {'&emsp;' * depth}<sub>⋯ 같은 구성의 묶음 {len(hidden)}개 더 (항목 {skipped}개 생략)</sub> | | | | | |")
+            out.append(f"| {'&emsp;' * depth}<sub>⋯ 같은 구성의 묶음 {len(hidden)}개 더 (항목 {skipped}개 생략)</sub> | | | | |")
     return out
 
 
@@ -169,7 +169,7 @@ def submodel_section(sm, concepts):
     assert tally["shown"] + tally["hidden"] == total, sm.findtext("idShort")
     name = sm.findtext("idShort")
     purpose = PURPOSE.get(name) or clean(pick(sm.find("description")), 60)
-    head = "| 항목 | 설명 | 형식 | 단위 | 예시값 | 의미 ID |\n|---|---|---|---|---|---|"
+    head = "| 항목 | 설명 · 의미 ID | 형식 | 단위 | 예시값 |\n|---|---|---|---|---|"
     block = (
         f"<details>\n<summary><b>{escape(name)}</b> · {purpose} · 항목 {total}개</summary>\n\n"
         f"{head}\n" + "\n".join(body) + "\n\n</details>"
