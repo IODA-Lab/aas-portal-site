@@ -7,6 +7,7 @@ import csv
 import re
 import subprocess
 import sys
+import unicodedata
 import xml.etree.ElementTree as ET
 import zipfile
 from html import escape
@@ -91,9 +92,33 @@ def clean(text, limit):
     return escape(text).replace("|", "&#124;")
 
 
-def breakable(text):
-    """긴 값이 표 폭을 넓히지 않도록 줄바꿈 가능 지점을 넣는다. 복사한 값에는 영향이 없다."""
-    return re.sub(r"(?<!&)([/_#.:-])(?=\S)", r"\1<wbr>", text)
+def shown(text):
+    return sum(2 if unicodedata.east_asian_width(c) in "WF" else 1 for c in text)
+
+
+def fold(text, cap, limit):
+    """GitHub 표는 내용 폭만큼 늘어나므로, 화면 폭을 넘지 않게 정해진 폭에서 줄을 나눈다."""
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > cap:
+        text = text[:cap - 1] + "…"
+    lines, current = [], ""
+    for word in text.split(" "):
+        parts = re.findall(r"[^/#_.:-]+[/#_.:-]*|[/#_.:-]+", word) if shown(word) > limit else [word]
+        for i, part in enumerate(parts):
+            glue = " " if current and i == 0 else ""
+            if current and shown(current + glue + part) > limit:
+                lines.append(current)
+                current = part
+            else:
+                current += glue + part
+    if current:
+        lines.append(current)
+    return "<br>".join(escape(line).replace("|", "&#124;") for line in lines)
+
+
+def solid(text):
+    """형식 칸의 한글이 글자마다 줄바꿈되지 않게 묶는다."""
+    return "⁠".join(text)
 
 
 def short_id(sid):
@@ -105,11 +130,11 @@ def short_id(sid):
 
 def form(e):
     if is_group(e):
-        return f"{GROUPS[e.tag][0]} ({len(children(e))})"
+        return f"{solid(GROUPS[e.tag][0])}&nbsp;({len(children(e))})"
     if e.tag in ("property", "range"):
-        kind = VALUE_TYPE.get((e.findtext("valueType") or "").split(":")[-1], e.findtext("valueType") or "")
-        return f"{kind} 범위" if e.tag == "range" else kind
-    return KIND[e.tag]
+        kind = solid(VALUE_TYPE.get((e.findtext("valueType") or "").split(":")[-1], e.findtext("valueType") or ""))
+        return f"{kind}&nbsp;{solid('범위')}" if e.tag == "range" else kind
+    return solid(KIND[e.tag])
 
 
 def value(e):
@@ -130,10 +155,11 @@ def row(e, depth, concepts):
     spec = concept.find(".//dataSpecificationIec61360") if concept is not None else None
     described = pick(e.find("description")) or (pick(spec.find("definition")) if spec is not None else "")
     unit = (spec.findtext("unit") or "") if spec is not None else ""
-    name = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "<wbr>", escape(e.findtext("idShort") or "(항목)"))
+    name = escape(e.findtext("idShort") or "(항목)")
     name = f"**{name}**" if is_group(e) else name
-    sid = f"<br><sub>{breakable(clean(short_id(semantic(e)), 70))}</sub>" if semantic(e) else ""
-    return f"| {'&emsp;' * depth}{name} | {clean(described, 140)}{sid} | {form(e)} | {clean(unit, 20)} | {breakable(clean(value(e), 60))} |"
+    sid = f"<br><sub>{fold(short_id(semantic(e)), 90, 50)}</sub>" if semantic(e) else ""
+    sample = " ".join(x for x in (value(e), unit) if x)
+    return f"| {'&ensp;' * depth * 2}{name} | {fold(described, 140, 40)}{sid} | {form(e)} | {fold(sample, 60, 20)} |"
 
 
 def signature(e):
@@ -163,7 +189,7 @@ def rows(parent, depth, concepts, tally):
             hidden = group[1:]
             skipped = sum(count(x) for x in hidden)
             tally["hidden"] += skipped
-            out.append(f"| {'&emsp;' * depth}<sub>⋯ 같은 구성의 묶음 {len(hidden)}개 더 (항목 {skipped}개 생략)</sub> | | | | |")
+            out.append(f"| {'&ensp;' * depth * 2}<sub>⋯ 같은 구성 {len(hidden)}개 더<br>(항목 {skipped}개 생략)</sub> | | | |")
     return out
 
 
@@ -174,7 +200,7 @@ def submodel_section(sm, concepts):
     assert tally["shown"] + tally["hidden"] == total, sm.findtext("idShort")
     name = sm.findtext("idShort")
     purpose = PURPOSE.get(name) or clean(pick(sm.find("description")), 60)
-    head = "| 항목 | 설명 · 의미 ID | 형식 | 단위 | 예시값 |\n|---|---|---|---|---|"
+    head = "| 항목 | 설명 · 의미 ID | 형식 | 예시값 |\n|---|---|---|---|"
     block = (
         f"<details>\n<summary><b>{escape(name)}</b> · {purpose} · 항목 {total}개</summary>\n\n"
         f"{head}\n" + "\n".join(body) + "\n\n</details>"
