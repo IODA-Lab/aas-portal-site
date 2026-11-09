@@ -121,7 +121,7 @@ def render(paths, authors):
     views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table=html_table(("장비군", "장비", "작성자"), groups), views=views, tools="\n".join(tools))
+    return README.format(table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
 
 
 def check(paths):
@@ -156,7 +156,7 @@ def main():
         print("\n".join(problems) or "문제 없음")
         return 1 if problems else 0
     with open(Path(__file__).with_name("authors.csv"), encoding="utf-8-sig", newline="") as f:
-        authors = {r["장비"]: r["작성자"] for r in csv.DictReader(f)}
+        authors = {r["장비"]: r["담당자"] for r in csv.DictReader(f)}
     (root / "README.md").write_text(render(paths, authors), encoding="utf-8", newline="\n")
     return 0
 
