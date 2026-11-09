@@ -45,7 +45,7 @@ README = """# 한양대 AAS Archive
 
 ## 장비별 자료
 
-장비에 대한 질문은 표의 문의 링크로 남겨 주세요. GitHub 계정이 필요하며, 글은 누구나 볼 수 있습니다.
+장비에 대한 질문은 표의 담당자 이름을 눌러 남겨 주세요. GitHub 계정이 필요하며, 글은 누구나 볼 수 있습니다.
 
 {table}
 
@@ -73,10 +73,10 @@ def link(label, path):
     return f'<a href="{quote(path, safe="/")}">{escape(label)}</a>'
 
 
-def inquiry_link(name):
+def inquiry_link(name, label):
     """장비명이 미리 채워진 문의 양식 링크를 만든다."""
     query = urlencode({"template": "equipment-question.yml", "title": f"[문의] {name}", "equipment": name})
-    return f'<a href="{escape(f"{REPO}/issues/new?{query}")}">문의</a>'
+    return f'<a href="{escape(f"{REPO}/issues/new?{query}")}">{escape(label)}</a>'
 
 
 def load_equipment(paths):
@@ -124,13 +124,13 @@ def render(paths, authors):
     equipment = load_equipment(paths)
     # Markdown 표는 셀 병합이 안 되어 HTML 표를 쓴다.
     groups = [
-        (group, [[link(name, f"equipment/{group}/{name}"), escape(authors.get(name) or "-"), inquiry_link(name)] for (_, name), _s in members])
+        (group, [[link(name, f"equipment/{group}/{name}"), inquiry_link(name, authors[name]) if authors.get(name) else "-"] for (_, name), _s in members])
         for group, members in groupby(sorted(equipment.items()), key=lambda kv: kv[0][0])
     ]
     views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table=html_table(("장비군", "장비", "담당자", "문의"), groups), views=views, tools="\n".join(tools))
+    return README.format(table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
 
 
 def check(paths):
