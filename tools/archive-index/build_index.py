@@ -40,8 +40,14 @@ README = """# 한양대 AAS Archive
 | 개발계획서 | 장비별 참조모델의 개발 범위와 구성을 정리한 문서 |
 | 가이던스 | 기업이 참조모델을 활용할 수 있도록 설명한 문서 |
 | AASX | AAS 파일 형식으로 만든 장비별 참조모델 |
-| 시뮬레이션 | 참조모델의 활용을 보여 주는 시뮬레이션 코드, 실행 안내, 영상 링크 |
+| 시뮬레이션 | 참조모델의 활용을 보여 주는 시뮬레이션 영상 |
 | 참고자료 | 작성에 참고한 카탈로그, 표준, 기술 문서 링크 |
+
+## 시뮬레이션 영상
+
+이미지를 누르면 YouTube에서 재생됩니다.
+
+{gallery}
 
 ## 장비별 자료
 
@@ -120,6 +126,24 @@ def render_view(equipment, section):
     return f"<details>\n<summary>{section} ({count}종)</summary>\n\n{table}\n\n</details>"
 
 
+def render_gallery():
+    """videos.csv의 영상을 YouTube 썸네일 격자로 만든다."""
+    with open(Path(__file__).with_name("videos.csv"), encoding="utf-8-sig", newline="") as f:
+        videos = list(csv.DictReader(f))
+    cells = []
+    for v in videos:
+        video = re.search(r"(?:v=|youtu\.be/|/shorts/|/embed/)([\w-]{11})", v["YouTube 주소"]).group(1)
+        name = escape(v["장비"])
+        caption = f"{name} ({escape(v['길이'])})" if v["길이"] else name
+        cells.append(
+            f'<td align="center" width="33%"><a href="https://www.youtube.com/watch?v={video}">'
+            f'<img src="https://img.youtube.com/vi/{video}/mqdefault.jpg" width="260" alt="{name} 시뮬레이션 영상"></a>'
+            f"<br>{caption}</td>"
+        )
+    rows = ["".join(cells[i:i + 3]) for i in range(0, len(cells), 3)]
+    return "<table>\n" + "\n".join(f"<tr>{r}</tr>" for r in rows) + "\n</table>"
+
+
 def render(paths, authors):
     equipment = load_equipment(paths)
     # Markdown 표는 셀 병합이 안 되어 HTML 표를 쓴다.
@@ -130,7 +154,7 @@ def render(paths, authors):
     views = "\n\n".join(render_view(equipment, s) for s in SECTIONS)
     names = sorted({p.split("/")[1] for p in paths if p.startswith("tools/") and p.count("/") >= 2} - {"archive-index"})
     tools = ["| 도구 | 설명 |", "|---|---|"] + [f"| {link(n, 'tools/' + n)} | {TOOLS.get(n, '')} |" for n in names]
-    return README.format(table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
+    return README.format(gallery=render_gallery(), table=html_table(("장비군", "장비", "담당자"), groups), views=views, tools="\n".join(tools))
 
 
 def check(paths):
